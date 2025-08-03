@@ -1,0 +1,817 @@
+[0.000000] (-) TimerEvent: {}
+[0.000730] (examples_rclcpp_async_client) JobQueued: {'identifier': 'examples_rclcpp_async_client', 'dependencies': OrderedDict()}
+[0.000816] (examples_rclcpp_cbg_executor) JobQueued: {'identifier': 'examples_rclcpp_cbg_executor', 'dependencies': OrderedDict()}
+[0.000842] (examples_rclcpp_minimal_action_client) JobQueued: {'identifier': 'examples_rclcpp_minimal_action_client', 'dependencies': OrderedDict()}
+[0.000866] (examples_rclcpp_minimal_action_server) JobQueued: {'identifier': 'examples_rclcpp_minimal_action_server', 'dependencies': OrderedDict()}
+[0.000889] (examples_rclcpp_minimal_client) JobQueued: {'identifier': 'examples_rclcpp_minimal_client', 'dependencies': OrderedDict()}
+[0.000913] (examples_rclcpp_minimal_composition) JobQueued: {'identifier': 'examples_rclcpp_minimal_composition', 'dependencies': OrderedDict()}
+[0.000937] (examples_rclcpp_minimal_publisher) JobQueued: {'identifier': 'examples_rclcpp_minimal_publisher', 'dependencies': OrderedDict()}
+[0.000960] (examples_rclcpp_minimal_service) JobQueued: {'identifier': 'examples_rclcpp_minimal_service', 'dependencies': OrderedDict()}
+[0.000983] (examples_rclcpp_minimal_subscriber) JobQueued: {'identifier': 'examples_rclcpp_minimal_subscriber', 'dependencies': OrderedDict()}
+[0.001006] (examples_rclcpp_minimal_timer) JobQueued: {'identifier': 'examples_rclcpp_minimal_timer', 'dependencies': OrderedDict()}
+[0.001029] (examples_rclcpp_multithreaded_executor) JobQueued: {'identifier': 'examples_rclcpp_multithreaded_executor', 'dependencies': OrderedDict()}
+[0.001052] (examples_rclcpp_wait_set) JobQueued: {'identifier': 'examples_rclcpp_wait_set', 'dependencies': OrderedDict()}
+[0.001075] (examples_rclpy_executors) JobQueued: {'identifier': 'examples_rclpy_executors', 'dependencies': OrderedDict()}
+[0.001098] (examples_rclpy_guard_conditions) JobQueued: {'identifier': 'examples_rclpy_guard_conditions', 'dependencies': OrderedDict()}
+[0.001121] (examples_rclpy_minimal_action_client) JobQueued: {'identifier': 'examples_rclpy_minimal_action_client', 'dependencies': OrderedDict()}
+[0.001143] (examples_rclpy_minimal_action_server) JobQueued: {'identifier': 'examples_rclpy_minimal_action_server', 'dependencies': OrderedDict()}
+[0.001166] (examples_rclpy_minimal_client) JobQueued: {'identifier': 'examples_rclpy_minimal_client', 'dependencies': OrderedDict()}
+[0.001189] (examples_rclpy_minimal_publisher) JobQueued: {'identifier': 'examples_rclpy_minimal_publisher', 'dependencies': OrderedDict()}
+[0.001212] (examples_rclpy_minimal_service) JobQueued: {'identifier': 'examples_rclpy_minimal_service', 'dependencies': OrderedDict()}
+[0.001238] (examples_rclpy_minimal_subscriber) JobQueued: {'identifier': 'examples_rclpy_minimal_subscriber', 'dependencies': OrderedDict()}
+[0.001261] (examples_rclpy_pointcloud_publisher) JobQueued: {'identifier': 'examples_rclpy_pointcloud_publisher', 'dependencies': OrderedDict()}
+[0.001290] (launch_testing_examples) JobQueued: {'identifier': 'launch_testing_examples', 'dependencies': OrderedDict()}
+[0.001313] (examples_rclcpp_async_client) JobStarted: {'identifier': 'examples_rclcpp_async_client'}
+[0.012655] (examples_rclcpp_cbg_executor) JobStarted: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.015061] (examples_rclcpp_minimal_action_client) JobStarted: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.017265] (examples_rclcpp_minimal_action_server) JobStarted: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.019635] (examples_rclcpp_minimal_client) JobStarted: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.021747] (examples_rclcpp_minimal_composition) JobStarted: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.023674] (examples_rclcpp_minimal_publisher) JobStarted: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.026142] (examples_rclcpp_minimal_service) JobStarted: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.028503] (examples_rclcpp_minimal_subscriber) JobStarted: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.030680] (examples_rclcpp_minimal_timer) JobStarted: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.032727] (examples_rclcpp_multithreaded_executor) JobStarted: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.035212] (examples_rclcpp_wait_set) JobStarted: {'identifier': 'examples_rclcpp_wait_set'}
+[0.037250] (examples_rclpy_executors) JobStarted: {'identifier': 'examples_rclpy_executors'}
+[0.041566] (examples_rclpy_guard_conditions) JobStarted: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.044832] (examples_rclpy_minimal_action_client) JobStarted: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.048264] (examples_rclpy_minimal_action_server) JobStarted: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.062092] (examples_rclcpp_async_client) JobProgress: {'identifier': 'examples_rclcpp_async_client', 'progress': 'cmake'}
+[0.063936] (examples_rclcpp_async_client) JobProgress: {'identifier': 'examples_rclcpp_async_client', 'progress': 'build'}
+[0.064003] (examples_rclcpp_async_client) Command: {'cmd': ['/usr/bin/cmake', '--build', '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_async_client', '--', '-j16', '-l16'], 'cwd': '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_async_client', 'env': OrderedDict([('HOSTNAME', '0e8ea9b54e7a'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/d2lros2/chap2'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_async_client'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.066844] (examples_rclcpp_cbg_executor) JobProgress: {'identifier': 'examples_rclcpp_cbg_executor', 'progress': 'cmake'}
+[0.068389] (examples_rclcpp_cbg_executor) JobProgress: {'identifier': 'examples_rclcpp_cbg_executor', 'progress': 'build'}
+[0.068645] (examples_rclcpp_cbg_executor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_cbg_executor', '--', '-j16', '-l16'], 'cwd': '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_cbg_executor', 'env': OrderedDict([('HOSTNAME', '0e8ea9b54e7a'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/d2lros2/chap2'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_cbg_executor'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.069575] (examples_rclcpp_minimal_action_client) JobProgress: {'identifier': 'examples_rclcpp_minimal_action_client', 'progress': 'cmake'}
+[0.069807] (examples_rclcpp_minimal_action_client) JobProgress: {'identifier': 'examples_rclcpp_minimal_action_client', 'progress': 'build'}
+[0.071001] (examples_rclcpp_minimal_action_client) Command: {'cmd': ['/usr/bin/cmake', '--build', '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_minimal_action_client', '--', '-j16', '-l16'], 'cwd': '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_minimal_action_client', 'env': OrderedDict([('HOSTNAME', '0e8ea9b54e7a'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/d2lros2/chap2'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_minimal_action_client'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.071983] (examples_rclcpp_minimal_action_server) JobProgress: {'identifier': 'examples_rclcpp_minimal_action_server', 'progress': 'cmake'}
+[0.072251] (examples_rclcpp_minimal_action_server) JobProgress: {'identifier': 'examples_rclcpp_minimal_action_server', 'progress': 'build'}
+[0.073294] (examples_rclcpp_minimal_action_server) Command: {'cmd': ['/usr/bin/cmake', '--build', '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_minimal_action_server', '--', '-j16', '-l16'], 'cwd': '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_minimal_action_server', 'env': OrderedDict([('HOSTNAME', '0e8ea9b54e7a'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/d2lros2/chap2'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_minimal_action_server'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.074579] (examples_rclcpp_minimal_client) JobProgress: {'identifier': 'examples_rclcpp_minimal_client', 'progress': 'cmake'}
+[0.075650] (examples_rclcpp_minimal_client) JobProgress: {'identifier': 'examples_rclcpp_minimal_client', 'progress': 'build'}
+[0.076033] (examples_rclcpp_minimal_client) Command: {'cmd': ['/usr/bin/cmake', '--build', '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_minimal_client', '--', '-j16', '-l16'], 'cwd': '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_minimal_client', 'env': OrderedDict([('HOSTNAME', '0e8ea9b54e7a'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/d2lros2/chap2'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_minimal_client'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.077377] (examples_rclcpp_minimal_composition) JobProgress: {'identifier': 'examples_rclcpp_minimal_composition', 'progress': 'cmake'}
+[0.078712] (examples_rclcpp_minimal_composition) JobProgress: {'identifier': 'examples_rclcpp_minimal_composition', 'progress': 'build'}
+[0.078889] (examples_rclcpp_minimal_composition) Command: {'cmd': ['/usr/bin/cmake', '--build', '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_minimal_composition', '--', '-j16', '-l16'], 'cwd': '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_minimal_composition', 'env': OrderedDict([('HOSTNAME', '0e8ea9b54e7a'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/d2lros2/chap2'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_minimal_composition'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.080129] (examples_rclcpp_minimal_publisher) JobProgress: {'identifier': 'examples_rclcpp_minimal_publisher', 'progress': 'cmake'}
+[0.080280] (examples_rclcpp_minimal_publisher) JobProgress: {'identifier': 'examples_rclcpp_minimal_publisher', 'progress': 'build'}
+[0.080485] (examples_rclcpp_minimal_publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_minimal_publisher', '--', '-j16', '-l16'], 'cwd': '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_minimal_publisher', 'env': OrderedDict([('HOSTNAME', '0e8ea9b54e7a'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/d2lros2/chap2'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_minimal_publisher'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.082326] (examples_rclcpp_minimal_service) JobProgress: {'identifier': 'examples_rclcpp_minimal_service', 'progress': 'cmake'}
+[0.082851] (examples_rclcpp_minimal_service) JobProgress: {'identifier': 'examples_rclcpp_minimal_service', 'progress': 'build'}
+[0.083658] (examples_rclcpp_minimal_service) Command: {'cmd': ['/usr/bin/cmake', '--build', '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_minimal_service', '--', '-j16', '-l16'], 'cwd': '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_minimal_service', 'env': OrderedDict([('HOSTNAME', '0e8ea9b54e7a'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/d2lros2/chap2'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_minimal_service'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.086227] (examples_rclcpp_minimal_subscriber) JobProgress: {'identifier': 'examples_rclcpp_minimal_subscriber', 'progress': 'cmake'}
+[0.086575] (examples_rclcpp_minimal_subscriber) JobProgress: {'identifier': 'examples_rclcpp_minimal_subscriber', 'progress': 'build'}
+[0.088573] (examples_rclcpp_minimal_subscriber) Command: {'cmd': ['/usr/bin/cmake', '--build', '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_minimal_subscriber', '--', '-j16', '-l16'], 'cwd': '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_minimal_subscriber', 'env': OrderedDict([('HOSTNAME', '0e8ea9b54e7a'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/d2lros2/chap2'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_minimal_subscriber'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.090329] (examples_rclcpp_minimal_timer) JobProgress: {'identifier': 'examples_rclcpp_minimal_timer', 'progress': 'cmake'}
+[0.090580] (examples_rclcpp_minimal_timer) JobProgress: {'identifier': 'examples_rclcpp_minimal_timer', 'progress': 'build'}
+[0.091510] (examples_rclcpp_minimal_timer) Command: {'cmd': ['/usr/bin/cmake', '--build', '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_minimal_timer', '--', '-j16', '-l16'], 'cwd': '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_minimal_timer', 'env': OrderedDict([('HOSTNAME', '0e8ea9b54e7a'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/d2lros2/chap2'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_minimal_timer'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.093551] (examples_rclcpp_multithreaded_executor) JobProgress: {'identifier': 'examples_rclcpp_multithreaded_executor', 'progress': 'cmake'}
+[0.094635] (examples_rclcpp_multithreaded_executor) JobProgress: {'identifier': 'examples_rclcpp_multithreaded_executor', 'progress': 'build'}
+[0.096803] (examples_rclcpp_multithreaded_executor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_multithreaded_executor', '--', '-j16', '-l16'], 'cwd': '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_multithreaded_executor', 'env': OrderedDict([('HOSTNAME', '0e8ea9b54e7a'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/d2lros2/chap2'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_multithreaded_executor'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098557] (examples_rclcpp_wait_set) JobProgress: {'identifier': 'examples_rclcpp_wait_set', 'progress': 'cmake'}
+[0.100725] (examples_rclcpp_wait_set) JobProgress: {'identifier': 'examples_rclcpp_wait_set', 'progress': 'build'}
+[0.100831] (-) TimerEvent: {}
+[0.101211] (examples_rclcpp_wait_set) Command: {'cmd': ['/usr/bin/cmake', '--build', '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_wait_set', '--', '-j16', '-l16'], 'cwd': '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_wait_set', 'env': OrderedDict([('HOSTNAME', '0e8ea9b54e7a'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/d2lros2/chap2'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_wait_set'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.200995] (-) TimerEvent: {}
+[0.301364] (-) TimerEvent: {}
+[0.401922] (-) TimerEvent: {}
+[0.502256] (-) TimerEvent: {}
+[0.602649] (-) TimerEvent: {}
+[0.703080] (-) TimerEvent: {}
+[0.803960] (-) TimerEvent: {}
+[0.904667] (-) TimerEvent: {}
+[1.005364] (-) TimerEvent: {}
+[1.106472] (-) TimerEvent: {}
+[1.206798] (-) TimerEvent: {}
+[1.307164] (-) TimerEvent: {}
+[1.407586] (-) TimerEvent: {}
+[1.508067] (-) TimerEvent: {}
+[1.609049] (-) TimerEvent: {}
+[1.616567] (examples_rclcpp_async_client) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/client_main.dir/main.cpp.o\x1b[0m\n'}
+[1.626568] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pong\x1b[0m\n'}
+[1.626834] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ping_pong\x1b[0m\n'}
+[1.626927] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ping\x1b[0m\n'}
+[1.626975] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/pong.dir/src/pong.cpp.o\x1b[0m\n'}
+[1.627033] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'[ 40%] Built target ping\n'}
+[1.627087] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ping_pong.dir/src/examples_rclcpp_cbg_executor/pong_node.cpp.o\x1b[0m\n'}
+[1.647547] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target action_client_not_composable\x1b[0m\n'}
+[1.647849] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target action_client_not_composable_with_feedback\x1b[0m\n'}
+[1.647952] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/action_client_member_functions.dir/member_functions.cpp.o\x1b[0m\n'}
+[1.648019] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/action_client_not_composable_with_cancel.dir/not_composable_with_cancel.cpp.o\x1b[0m\n'}
+[1.648079] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'[ 62%] Built target action_client_not_composable_with_feedback\n'}
+[1.648184] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'[ 75%] Built target action_client_not_composable\n'}
+[1.686197] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/action_server_member_functions.dir/member_functions.cpp.o\x1b[0m\n'}
+[1.686582] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/action_server_not_composable.dir/not_composable.cpp.o\x1b[0m\n'}
+[1.706817] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/client_main.dir/main.cpp.o\x1b[0m\n'}
+[1.709188] (-) TimerEvent: {}
+[1.746774] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/subscriber_node.cpp.o\x1b[0m\n'}
+[1.747056] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/publisher_node.cpp.o\x1b[0m\n'}
+[1.776589] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target publisher_lambda\x1b[0m\n'}
+[1.776873] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/publisher_member_function.dir/member_function.cpp.o\x1b[0m\n'}
+[1.776977] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/publisher_wait_for_all_acked.dir/member_function_with_wait_for_all_acked.cpp.o\x1b[0m\n'}
+[1.777067] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/publisher_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o\x1b[0m\n'}
+[1.777157] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/publisher_not_composable.dir/not_composable.cpp.o\x1b[0m\n'}
+[1.777238] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/publisher_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o\x1b[0m\n'}
+[1.777316] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'[ 58%] Built target publisher_lambda\n'}
+[1.809339] (-) TimerEvent: {}
+[1.836105] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target service_main\x1b[0m\n'}
+[1.836927] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'[100%] Built target service_main\n'}
+[1.856686] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/subscriber_member_function.dir/member_function.cpp.o\x1b[0m\n'}
+[1.856954] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target subscriber_member_function_with_type_adapter\x1b[0m\n'}
+[1.857041] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/subscriber_lambda.dir/lambda.cpp.o\x1b[0m\n'}
+[1.857094] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target subscriber_member_function_with_unique_network_flow_endpoints\x1b[0m\n'}
+[1.857145] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wait_set_subscriber_library\x1b[0m\n'}
+[1.857222] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/subscriber_member_function_with_topic_statistics.dir/member_function_with_topic_statistics.cpp.o\x1b[0m\n'}
+[1.857282] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/subscriber_content_filtering.dir/content_filtering.cpp.o\x1b[0m\n'}
+[1.857333] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 25%] Built target subscriber_member_function_with_type_adapter\n'}
+[1.857383] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/time_triggered_wait_set_subscriber.dir/rclcpp_components/node_main_time_triggered_wait_set_subscriber.cpp.o\x1b[0m\n'}
+[1.857432] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/subscriber_not_composable.dir/not_composable.cpp.o\x1b[0m\n'}
+[1.857480] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/wait_set_subscriber.dir/rclcpp_components/node_main_wait_set_subscriber.cpp.o\x1b[0m\n'}
+[1.857529] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/static_wait_set_subscriber.dir/rclcpp_components/node_main_static_wait_set_subscriber.cpp.o\x1b[0m\n'}
+[1.857577] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 50%] Built target subscriber_member_function_with_unique_network_flow_endpoints\n'}
+[1.857623] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 66%] Built target wait_set_subscriber_library\n'}
+[1.877553] (examples_rclcpp_minimal_timer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target timer_lambda\x1b[0m\n'}
+[1.877884] (examples_rclcpp_minimal_timer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target timer_member_function\x1b[0m\n'}
+[1.877980] (examples_rclcpp_minimal_timer) StdoutLine: {'line': b'[ 50%] Built target timer_lambda\n'}
+[1.878045] (examples_rclcpp_minimal_timer) StdoutLine: {'line': b'[100%] Built target timer_member_function\n'}
+[1.894022] (examples_rclcpp_wait_set) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[1.894429] (examples_rclcpp_wait_set) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[1.894670] (examples_rclcpp_wait_set) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wait_set\x1b[0m\n'}
+[1.894752] (examples_rclcpp_wait_set) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wait_set_talker\x1b[0m\n'}
+[1.894804] (examples_rclcpp_wait_set) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target static_wait_set\x1b[0m\n'}
+[1.894854] (examples_rclcpp_wait_set) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wait_set_topics_and_timer\x1b[0m\n'}
+[1.894911] (examples_rclcpp_wait_set) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/wait_set_listener.dir/rclcpp_components/node_main_wait_set_listener.cpp.o\x1b[0m\n'}
+[1.894967] (examples_rclcpp_wait_set) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/wait_set_random_order.dir/src/wait_set_random_order.cpp.o\x1b[0m\n'}
+[1.895025] (examples_rclcpp_wait_set) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/executor_random_order.dir/src/executor_random_order.cpp.o\x1b[0m\n'}
+[1.895075] (examples_rclcpp_wait_set) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/thread_safe_wait_set.dir/src/thread_safe_wait_set.cpp.o\x1b[0m\n'}
+[1.895124] (examples_rclcpp_wait_set) StdoutLine: {'line': b'[ 25%] Built target wait_set\n'}
+[1.895172] (examples_rclcpp_wait_set) StdoutLine: {'line': b'[ 33%] Built target talker\n'}
+[1.895221] (examples_rclcpp_wait_set) StdoutLine: {'line': b'[ 41%] Built target wait_set_talker\n'}
+[1.895269] (examples_rclcpp_wait_set) StdoutLine: {'line': b'[ 50%] Built target listener\n'}
+[1.895317] (examples_rclcpp_wait_set) StdoutLine: {'line': b'[ 58%] Built target static_wait_set\n'}
+[1.895366] (examples_rclcpp_wait_set) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/wait_set_topics_with_different_rates.dir/src/wait_set_topics_with_different_rates.cpp.o\x1b[0m\n'}
+[1.895420] (examples_rclcpp_wait_set) StdoutLine: {'line': b'[ 70%] Built target wait_set_topics_and_timer\n'}
+[1.895471] (examples_rclcpp_wait_set) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/wait_set_composed.dir/src/wait_set_composed.cpp.o\x1b[0m\n'}
+[1.895523] (examples_rclcpp_multithreaded_executor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target multithreaded_executor\x1b[0m\n'}
+[1.895606] (examples_rclcpp_multithreaded_executor) StdoutLine: {'line': b'[100%] Built target multithreaded_executor\n'}
+[1.906423] (examples_rclcpp_minimal_service) CommandEnded: {'returncode': 0}
+[1.909476] (-) TimerEvent: {}
+[1.926693] (examples_rclcpp_minimal_timer) CommandEnded: {'returncode': 0}
+[1.946522] (examples_rclcpp_multithreaded_executor) CommandEnded: {'returncode': 0}
+[2.009606] (-) TimerEvent: {}
+[2.110729] (-) TimerEvent: {}
+[2.211263] (-) TimerEvent: {}
+[2.296664] (examples_rclcpp_minimal_service) JobProgress: {'identifier': 'examples_rclcpp_minimal_service', 'progress': 'install'}
+[2.311390] (-) TimerEvent: {}
+[2.336626] (examples_rclcpp_minimal_service) Command: {'cmd': ['/usr/bin/cmake', '--install', '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_minimal_service'], 'cwd': '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_minimal_service', 'env': OrderedDict([('HOSTNAME', '0e8ea9b54e7a'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/d2lros2/chap2'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_minimal_service'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.387502] (examples_rclcpp_multithreaded_executor) JobProgress: {'identifier': 'examples_rclcpp_multithreaded_executor', 'progress': 'install'}
+[2.387648] (examples_rclcpp_multithreaded_executor) Command: {'cmd': ['/usr/bin/cmake', '--install', '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_multithreaded_executor'], 'cwd': '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_multithreaded_executor', 'env': OrderedDict([('HOSTNAME', '0e8ea9b54e7a'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/d2lros2/chap2'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_multithreaded_executor'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.389106] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.389443] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_service/lib/examples_rclcpp_minimal_service/service_main\n'}
+[2.391562] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Set runtime path of "/d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_service/lib/examples_rclcpp_minimal_service/service_main" to ""\n'}
+[2.392297] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_service\n'}
+[2.393109] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_service\n'}
+[2.393755] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.sh\n'}
+[2.394546] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.dsv\n'}
+[2.395220] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.sh\n'}
+[2.395960] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.dsv\n'}
+[2.396585] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.bash\n'}
+[2.397190] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.sh\n'}
+[2.398020] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.zsh\n'}
+[2.398677] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.dsv\n'}
+[2.399348] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.dsv\n'}
+[2.400133] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/packages/examples_rclcpp_minimal_service\n'}
+[2.400916] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig.cmake\n'}
+[2.403692] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig-version.cmake\n'}
+[2.446318] (examples_rclcpp_minimal_timer) JobProgress: {'identifier': 'examples_rclcpp_minimal_timer', 'progress': 'install'}
+[2.446444] (-) TimerEvent: {}
+[2.447593] (examples_rclcpp_minimal_timer) Command: {'cmd': ['/usr/bin/cmake', '--install', '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_minimal_timer'], 'cwd': '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_minimal_timer', 'env': OrderedDict([('HOSTNAME', '0e8ea9b54e7a'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/d2lros2/chap2'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_minimal_timer'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.448149] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.xml\n'}
+[2.458499] (examples_rclcpp_multithreaded_executor) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.458684] (examples_rclcpp_multithreaded_executor) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/lib/examples_rclcpp_multithreaded_executor/multithreaded_executor\n'}
+[2.458752] (examples_rclcpp_multithreaded_executor) StdoutLine: {'line': b'-- Set runtime path of "/d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/lib/examples_rclcpp_multithreaded_executor/multithreaded_executor" to ""\n'}
+[2.458804] (examples_rclcpp_multithreaded_executor) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_multithreaded_executor\n'}
+[2.458859] (examples_rclcpp_multithreaded_executor) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_multithreaded_executor\n'}
+[2.458906] (examples_rclcpp_multithreaded_executor) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/ament_prefix_path.sh\n'}
+[2.458955] (examples_rclcpp_multithreaded_executor) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/ament_prefix_path.dsv\n'}
+[2.461287] (examples_rclcpp_multithreaded_executor) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/path.sh\n'}
+[2.461486] (examples_rclcpp_multithreaded_executor) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/path.dsv\n'}
+[2.467670] (examples_rclcpp_minimal_service) CommandEnded: {'returncode': 0}
+[2.468074] (examples_rclcpp_multithreaded_executor) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.bash\n'}
+[2.468597] (examples_rclcpp_multithreaded_executor) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.sh\n'}
+[2.468663] (examples_rclcpp_multithreaded_executor) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.zsh\n'}
+[2.468708] (examples_rclcpp_multithreaded_executor) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.dsv\n'}
+[2.473407] (examples_rclcpp_multithreaded_executor) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/package.dsv\n'}
+[2.473628] (examples_rclcpp_multithreaded_executor) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/packages/examples_rclcpp_multithreaded_executor\n'}
+[2.473722] (examples_rclcpp_multithreaded_executor) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/cmake/examples_rclcpp_multithreaded_executorConfig.cmake\n'}
+[2.473794] (examples_rclcpp_multithreaded_executor) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/cmake/examples_rclcpp_multithreaded_executorConfig-version.cmake\n'}
+[2.473854] (examples_rclcpp_multithreaded_executor) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/package.xml\n'}
+[2.546851] (-) TimerEvent: {}
+[2.557402] (examples_rclcpp_minimal_timer) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.566010] (examples_rclcpp_minimal_timer) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_lambda\n'}
+[2.566148] (examples_rclcpp_minimal_timer) StdoutLine: {'line': b'-- Set runtime path of "/d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_lambda" to ""\n'}
+[2.566224] (examples_rclcpp_minimal_timer) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_member_function\n'}
+[2.566278] (examples_rclcpp_minimal_timer) StdoutLine: {'line': b'-- Set runtime path of "/d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_member_function" to ""\n'}
+[2.566331] (examples_rclcpp_minimal_timer) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_timer\n'}
+[2.566381] (examples_rclcpp_minimal_timer) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_timer\n'}
+[2.566470] (examples_rclcpp_minimal_timer) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.sh\n'}
+[2.566519] (examples_rclcpp_minimal_timer) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.dsv\n'}
+[2.566564] (examples_rclcpp_minimal_timer) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.sh\n'}
+[2.566610] (examples_rclcpp_minimal_timer) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.dsv\n'}
+[2.566655] (examples_rclcpp_minimal_timer) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.bash\n'}
+[2.566802] (examples_rclcpp_minimal_timer) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.sh\n'}
+[2.566883] (examples_rclcpp_minimal_timer) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.zsh\n'}
+[2.566936] (examples_rclcpp_minimal_timer) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.dsv\n'}
+[2.566983] (examples_rclcpp_minimal_timer) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.dsv\n'}
+[2.567027] (examples_rclcpp_minimal_timer) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/packages/examples_rclcpp_minimal_timer\n'}
+[2.567071] (examples_rclcpp_minimal_timer) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig.cmake\n'}
+[2.567115] (examples_rclcpp_minimal_timer) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig-version.cmake\n'}
+[2.567161] (examples_rclcpp_minimal_timer) StdoutLine: {'line': b'-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.xml\n'}
+[2.567211] (examples_rclcpp_multithreaded_executor) CommandEnded: {'returncode': 0}
+[2.611024] (examples_rclcpp_minimal_timer) CommandEnded: {'returncode': 0}
+[2.647146] (-) TimerEvent: {}
+[2.747616] (-) TimerEvent: {}
+[2.848875] (-) TimerEvent: {}
+[2.956630] (examples_rclpy_executors) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../../build/examples_rclpy_executors', 'build', '--build-base', '/d2lros2/chap2/colcon_test_ws/build/examples_rclpy_executors/build', 'install', '--record', '/d2lros2/chap2/colcon_test_ws/build/examples_rclpy_executors/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/d2lros2/chap2/colcon_test_ws/src/examples/rclpy/executors', 'env': {'HOSTNAME': '0e8ea9b54e7a', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/d2lros2/chap2', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/d2lros2/chap2/colcon_test_ws/build/examples_rclpy_executors', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/d2lros2/chap2/colcon_test_ws/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/d2lros2/chap2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[2.958050] (-) TimerEvent: {}
+[2.975590] (examples_rclcpp_multithreaded_executor) JobEnded: {'identifier': 'examples_rclcpp_multithreaded_executor', 'rc': 0}
+[2.977220] (examples_rclpy_minimal_client) JobStarted: {'identifier': 'examples_rclpy_minimal_client'}
+[3.056090] (examples_rclpy_minimal_action_client) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../../../build/examples_rclpy_minimal_action_client', 'build', '--build-base', '/d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_action_client/build', 'install', '--record', '/d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_action_client/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/d2lros2/chap2/colcon_test_ws/src/examples/rclpy/actions/minimal_action_client', 'env': {'HOSTNAME': '0e8ea9b54e7a', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/d2lros2/chap2', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_action_client', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_action_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[3.058154] (-) TimerEvent: {}
+[3.075313] (examples_rclcpp_minimal_timer) JobEnded: {'identifier': 'examples_rclcpp_minimal_timer', 'rc': 0}
+[3.076865] (examples_rclpy_minimal_publisher) JobStarted: {'identifier': 'examples_rclpy_minimal_publisher'}
+[3.158298] (-) TimerEvent: {}
+[3.258931] (-) TimerEvent: {}
+[3.357750] (examples_rclpy_executors) StdoutLine: {'line': b'running egg_info\n'}
+[3.359036] (-) TimerEvent: {}
+[3.360648] (examples_rclpy_executors) StdoutLine: {'line': b'writing ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/PKG-INFO\n'}
+[3.364074] (examples_rclpy_executors) StdoutLine: {'line': b'writing dependency_links to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/dependency_links.txt\n'}
+[3.365429] (examples_rclpy_executors) StdoutLine: {'line': b'writing entry points to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/entry_points.txt\n'}
+[3.366500] (examples_rclpy_executors) StdoutLine: {'line': b'writing requirements to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/requires.txt\n'}
+[3.367524] (examples_rclpy_executors) StdoutLine: {'line': b'writing top-level names to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/top_level.txt\n'}
+[3.372795] (examples_rclpy_executors) StdoutLine: {'line': b"reading manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'\n"}
+[3.377859] (examples_rclpy_executors) StdoutLine: {'line': b"writing manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'\n"}
+[3.378899] (examples_rclpy_executors) StdoutLine: {'line': b'running build\n'}
+[3.379456] (examples_rclpy_executors) StdoutLine: {'line': b'running build_py\n'}
+[3.407020] (examples_rclpy_executors) StdoutLine: {'line': b'running install\n'}
+[3.408319] (examples_rclpy_executors) StdoutLine: {'line': b'running install_lib\n'}
+[3.412448] (examples_rclpy_executors) StdoutLine: {'line': b'running install_data\n'}
+[3.414955] (examples_rclpy_executors) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.418109] (examples_rclpy_executors) StdoutLine: {'line': b"removing '/d2lros2/chap2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors-0.15.3-py3.10.egg-info' (and everything under it)\n"}
+[3.419383] (examples_rclpy_executors) StdoutLine: {'line': b'Copying ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info to /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors-0.15.3-py3.10.egg-info\n'}
+[3.422192] (examples_rclpy_executors) StdoutLine: {'line': b'running install_scripts\n'}
+[3.459170] (-) TimerEvent: {}
+[3.487740] (examples_rclpy_executors) StdoutLine: {'line': b'Installing callback_group script to /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors\n'}
+[3.489120] (examples_rclpy_executors) StdoutLine: {'line': b'Installing composed script to /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors\n'}
+[3.489399] (examples_rclpy_executors) StdoutLine: {'line': b'Installing custom_callback_group script to /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors\n'}
+[3.489551] (examples_rclpy_executors) StdoutLine: {'line': b'Installing custom_executor script to /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors\n'}
+[3.489679] (examples_rclpy_executors) StdoutLine: {'line': b'Installing listener script to /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors\n'}
+[3.489889] (examples_rclpy_executors) StdoutLine: {'line': b'Installing talker script to /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors\n'}
+[3.491386] (examples_rclpy_executors) StdoutLine: {'line': b"writing list of installed files to '/d2lros2/chap2/colcon_test_ws/build/examples_rclpy_executors/install.log'\n"}
+[3.559454] (-) TimerEvent: {}
+[3.661989] (-) TimerEvent: {}
+[3.763236] (-) TimerEvent: {}
+[3.863760] (-) TimerEvent: {}
+[3.933970] (examples_rclcpp_minimal_service) JobEnded: {'identifier': 'examples_rclcpp_minimal_service', 'rc': 0}
+[3.935848] (examples_rclpy_minimal_service) JobStarted: {'identifier': 'examples_rclpy_minimal_service'}
+[3.976748] (-) TimerEvent: {}
+[4.016453] (examples_rclpy_minimal_action_server) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../../../build/examples_rclpy_minimal_action_server', 'build', '--build-base', '/d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_action_server/build', 'install', '--record', '/d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_action_server/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/d2lros2/chap2/colcon_test_ws/src/examples/rclpy/actions/minimal_action_server', 'env': {'HOSTNAME': '0e8ea9b54e7a', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/d2lros2/chap2', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_action_server', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_action_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[4.069230] (examples_rclpy_guard_conditions) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../../build/examples_rclpy_guard_conditions', 'build', '--build-base', '/d2lros2/chap2/colcon_test_ws/build/examples_rclpy_guard_conditions/build', 'install', '--record', '/d2lros2/chap2/colcon_test_ws/build/examples_rclpy_guard_conditions/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/d2lros2/chap2/colcon_test_ws/src/examples/rclpy/guard_conditions', 'env': {'HOSTNAME': '0e8ea9b54e7a', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/d2lros2/chap2', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/d2lros2/chap2/colcon_test_ws/build/examples_rclpy_guard_conditions', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/d2lros2/chap2/colcon_test_ws/build/examples_rclpy_guard_conditions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/d2lros2/chap2/colcon_test_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[4.071541] (examples_rclpy_minimal_action_client) StdoutLine: {'line': b'running egg_info\n'}
+[4.071746] (examples_rclpy_minimal_action_client) StdoutLine: {'line': b'writing ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/PKG-INFO\n'}
+[4.071833] (examples_rclpy_minimal_action_client) StdoutLine: {'line': b'writing dependency_links to ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/dependency_links.txt\n'}
+[4.071886] (examples_rclpy_minimal_action_client) StdoutLine: {'line': b'writing entry points to ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/entry_points.txt\n'}
+[4.071934] (examples_rclpy_minimal_action_client) StdoutLine: {'line': b'writing requirements to ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/requires.txt\n'}
+[4.071983] (examples_rclpy_minimal_action_client) StdoutLine: {'line': b'writing top-level names to ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/top_level.txt\n'}
+[4.072030] (examples_rclpy_minimal_action_client) StdoutLine: {'line': b"reading manifest file '../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'\n"}
+[4.072078] (examples_rclpy_minimal_action_client) StdoutLine: {'line': b"writing manifest file '../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'\n"}
+[4.072124] (examples_rclpy_minimal_action_client) StdoutLine: {'line': b'running build\n'}
+[4.072169] (examples_rclpy_minimal_action_client) StdoutLine: {'line': b'running build_py\n'}
+[4.072214] (examples_rclpy_minimal_action_client) StdoutLine: {'line': b'running install\n'}
+[4.072257] (examples_rclpy_minimal_action_client) StdoutLine: {'line': b'running install_lib\n'}
+[4.072299] (examples_rclpy_minimal_action_client) StdoutLine: {'line': b'running install_data\n'}
+[4.072339] (examples_rclpy_minimal_action_client) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.072384] (examples_rclpy_minimal_action_client) StdoutLine: {'line': b"removing '/d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples_rclpy_minimal_action_client-0.15.3-py3.10.egg-info' (and everything under it)\n"}
+[4.072437] (examples_rclpy_minimal_action_client) StdoutLine: {'line': b'Copying ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info to /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples_rclpy_minimal_action_client-0.15.3-py3.10.egg-info\n'}
+[4.072488] (examples_rclpy_minimal_action_client) StdoutLine: {'line': b'running install_scripts\n'}
+[4.072532] (examples_rclpy_minimal_action_client) StdoutLine: {'line': b'Installing client script to /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client\n'}
+[4.072577] (examples_rclpy_minimal_action_client) StdoutLine: {'line': b'Installing client_asyncio script to /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client\n'}
+[4.072654] (examples_rclpy_minimal_action_client) StdoutLine: {'line': b'Installing client_cancel script to /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client\n'}
+[4.072715] (examples_rclpy_minimal_action_client) StdoutLine: {'line': b'Installing client_not_composable script to /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client\n'}
+[4.072761] (examples_rclpy_minimal_action_client) StdoutLine: {'line': b"writing list of installed files to '/d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_action_client/install.log'\n"}
+[4.086358] (-) TimerEvent: {}
+[4.186910] (-) TimerEvent: {}
+[4.287496] (-) TimerEvent: {}
+[4.388038] (-) TimerEvent: {}
+[4.490309] (-) TimerEvent: {}
+[4.576781] (examples_rclpy_minimal_action_server) StdoutLine: {'line': b'running egg_info\n'}
+[4.578351] (examples_rclpy_minimal_action_server) StdoutLine: {'line': b'writing ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/PKG-INFO\n'}
+[4.580922] (examples_rclpy_minimal_action_server) StdoutLine: {'line': b'writing dependency_links to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/dependency_links.txt\n'}
+[4.584876] (examples_rclpy_minimal_action_server) StdoutLine: {'line': b'writing entry points to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/entry_points.txt\n'}
+[4.585104] (examples_rclpy_minimal_action_server) StdoutLine: {'line': b'writing requirements to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/requires.txt\n'}
+[4.585165] (examples_rclpy_minimal_action_server) StdoutLine: {'line': b'writing top-level names to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/top_level.txt\n'}
+[4.590589] (-) TimerEvent: {}
+[4.592408] (examples_rclpy_minimal_action_server) StdoutLine: {'line': b"reading manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'\n"}
+[4.595216] (examples_rclpy_minimal_action_server) StdoutLine: {'line': b"writing manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'\n"}
+[4.596080] (examples_rclpy_minimal_action_server) StdoutLine: {'line': b'running build\n'}
+[4.596331] (examples_rclpy_minimal_action_server) StdoutLine: {'line': b'running build_py\n'}
+[4.617778] (examples_rclpy_minimal_action_server) StdoutLine: {'line': b'running install\n'}
+[4.619078] (examples_rclpy_minimal_action_server) StdoutLine: {'line': b'running install_lib\n'}
+[4.623381] (examples_rclpy_minimal_action_server) StdoutLine: {'line': b'running install_data\n'}
+[4.625360] (examples_rclpy_minimal_action_server) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.628735] (examples_rclpy_minimal_action_server) StdoutLine: {'line': b"removing '/d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server-0.15.3-py3.10.egg-info' (and everything under it)\n"}
+[4.630362] (examples_rclpy_minimal_action_server) StdoutLine: {'line': b'Copying ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info to /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server-0.15.3-py3.10.egg-info\n'}
+[4.646785] (examples_rclpy_minimal_action_server) StdoutLine: {'line': b'running install_scripts\n'}
+[4.690656] (-) TimerEvent: {}
+[4.700773] (examples_rclpy_minimal_action_server) StdoutLine: {'line': b'Installing server script to /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server\n'}
+[4.704738] (examples_rclpy_minimal_action_server) StdoutLine: {'line': b'Installing server_defer script to /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server\n'}
+[4.707069] (examples_rclpy_minimal_action_server) StdoutLine: {'line': b'Installing server_not_composable script to /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server\n'}
+[4.708899] (examples_rclpy_minimal_action_server) StdoutLine: {'line': b'Installing server_queue_goals script to /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server\n'}
+[4.709799] (examples_rclpy_minimal_action_server) StdoutLine: {'line': b'Installing server_single_goal script to /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server\n'}
+[4.711671] (examples_rclpy_minimal_action_server) StdoutLine: {'line': b"writing list of installed files to '/d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_action_server/install.log'\n"}
+[4.791419] (-) TimerEvent: {}
+[4.895655] (-) TimerEvent: {}
+[4.989670] (examples_rclpy_executors) CommandEnded: {'returncode': 0}
+[4.995798] (-) TimerEvent: {}
+[5.004059] (examples_rclpy_executors) JobEnded: {'identifier': 'examples_rclpy_executors', 'rc': 0}
+[5.004698] (examples_rclpy_minimal_action_client) CommandEnded: {'returncode': 0}
+[5.037698] (examples_rclpy_minimal_action_client) JobEnded: {'identifier': 'examples_rclpy_minimal_action_client', 'rc': 0}
+[5.057509] (examples_rclpy_guard_conditions) StdoutLine: {'line': b'running egg_info\n'}
+[5.057872] (examples_rclpy_guard_conditions) StdoutLine: {'line': b'writing ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/PKG-INFO\n'}
+[5.058331] (examples_rclpy_guard_conditions) StdoutLine: {'line': b'writing dependency_links to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/dependency_links.txt\n'}
+[5.075447] (examples_rclpy_guard_conditions) StdoutLine: {'line': b'writing entry points to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/entry_points.txt\n'}
+[5.075779] (examples_rclpy_guard_conditions) StdoutLine: {'line': b'writing requirements to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/requires.txt\n'}
+[5.075900] (examples_rclpy_guard_conditions) StdoutLine: {'line': b'writing top-level names to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/top_level.txt\n'}
+[5.075981] (examples_rclpy_guard_conditions) StdoutLine: {'line': b"reading manifest file '../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/SOURCES.txt'\n"}
+[5.076058] (examples_rclpy_guard_conditions) StdoutLine: {'line': b"writing manifest file '../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/SOURCES.txt'\n"}
+[5.076122] (examples_rclpy_guard_conditions) StdoutLine: {'line': b'running build\n'}
+[5.076174] (examples_rclpy_guard_conditions) StdoutLine: {'line': b'running build_py\n'}
+[5.076239] (examples_rclpy_guard_conditions) StdoutLine: {'line': b'running install\n'}
+[5.076297] (examples_rclpy_guard_conditions) StdoutLine: {'line': b'running install_lib\n'}
+[5.076340] (examples_rclpy_guard_conditions) StdoutLine: {'line': b'running install_data\n'}
+[5.076381] (examples_rclpy_guard_conditions) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.076420] (examples_rclpy_guard_conditions) StdoutLine: {'line': b"removing '/d2lros2/chap2/colcon_test_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions-0.15.3-py3.10.egg-info' (and everything under it)\n"}
+[5.076507] (examples_rclpy_guard_conditions) StdoutLine: {'line': b'Copying ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info to /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions-0.15.3-py3.10.egg-info\n'}
+[5.076588] (examples_rclpy_guard_conditions) StdoutLine: {'line': b'running install_scripts\n'}
+[5.077110] (examples_rclpy_guard_conditions) StdoutLine: {'line': b'Installing trigger_guard_condition script to /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_guard_conditions/lib/examples_rclpy_guard_conditions\n'}
+[5.077182] (examples_rclpy_guard_conditions) StdoutLine: {'line': b"writing list of installed files to '/d2lros2/chap2/colcon_test_ws/build/examples_rclpy_guard_conditions/install.log'\n"}
+[5.095931] (-) TimerEvent: {}
+[5.196547] (-) TimerEvent: {}
+[5.297277] (-) TimerEvent: {}
+[5.404700] (-) TimerEvent: {}
+[5.505557] (-) TimerEvent: {}
+[5.607073] (-) TimerEvent: {}
+[5.707959] (-) TimerEvent: {}
+[5.809046] (-) TimerEvent: {}
+[5.912062] (-) TimerEvent: {}
+[6.016086] (-) TimerEvent: {}
+[6.117530] (-) TimerEvent: {}
+[6.218188] (-) TimerEvent: {}
+[6.318622] (-) TimerEvent: {}
+[6.419447] (-) TimerEvent: {}
+[6.519942] (-) TimerEvent: {}
+[6.620604] (-) TimerEvent: {}
+[6.724308] (-) TimerEvent: {}
+[7.800693] (-) TimerEvent: {}
+[7.838548] (examples_rclcpp_wait_set) StderrLine: {'line': b'\x1b[01m\x1b[Kc++:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KKilled signal terminated program cc1plus\n'}
+[7.891248] (examples_rclcpp_wait_set) StderrLine: {'line': b'compilation terminated.\n'}
+[7.893698] (examples_rclcpp_wait_set) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/wait_set_topics_with_different_rates.dir/build.make:76: CMakeFiles/wait_set_topics_with_different_rates.dir/src/wait_set_topics_with_different_rates.cpp.o] Error 1\n'}
+[7.922054] (-) TimerEvent: {}
+[7.922305] (examples_rclcpp_wait_set) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:419: CMakeFiles/wait_set_topics_with_different_rates.dir/all] Error 2\n'}
+[7.922478] (examples_rclcpp_wait_set) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[8.024121] (-) TimerEvent: {}
+[8.122692] (examples_rclpy_minimal_subscriber) JobStarted: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[8.496462] (-) TimerEvent: {}
+[8.828297] (-) TimerEvent: {}
+[10.613303] (examples_rclcpp_wait_set) StderrLine: {'line': b'\x1b[01m\x1b[Kc++:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KKilled signal terminated program cc1plus\n'}
+[10.615368] (-) TimerEvent: {}
+[10.615893] (examples_rclcpp_wait_set) StderrLine: {'line': b'compilation terminated.\n'}
+[10.621660] (examples_rclcpp_wait_set) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/executor_random_order.dir/build.make:76: CMakeFiles/executor_random_order.dir/src/executor_random_order.cpp.o] Error 1\n'}
+[10.627273] (examples_rclcpp_wait_set) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:393: CMakeFiles/executor_random_order.dir/all] Error 2\n'}
+[10.648081] (examples_rclpy_pointcloud_publisher) JobStarted: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[10.699018] (examples_rclpy_minimal_action_server) CommandEnded: {'returncode': 0}
+[10.715515] (-) TimerEvent: {}
+[10.771795] (examples_rclpy_minimal_action_server) JobEnded: {'identifier': 'examples_rclpy_minimal_action_server', 'rc': 0}
+[10.777185] (examples_rclpy_guard_conditions) CommandEnded: {'returncode': 0}
+[10.801689] (examples_rclpy_guard_conditions) JobEnded: {'identifier': 'examples_rclpy_guard_conditions', 'rc': 0}
+[10.822903] (-) TimerEvent: {}
+[10.871821] (launch_testing_examples) JobStarted: {'identifier': 'launch_testing_examples'}
+[10.908898] (examples_rclpy_minimal_client) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../../../build/examples_rclpy_minimal_client', 'build', '--build-base', '/d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_client/build', 'install', '--record', '/d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_client/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/d2lros2/chap2/colcon_test_ws/src/examples/rclpy/services/minimal_client', 'env': {'HOSTNAME': '0e8ea9b54e7a', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/d2lros2/chap2', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_client', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[10.933694] (-) TimerEvent: {}
+[11.036486] (-) TimerEvent: {}
+[11.160891] (-) TimerEvent: {}
+[11.401699] (examples_rclcpp_minimal_action_server) StderrLine: {'line': b'\x1b[01m\x1b[Kc++:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KKilled signal terminated program cc1plus\n'}
+[11.404234] (-) TimerEvent: {}
+[11.404561] (examples_rclcpp_minimal_action_server) StderrLine: {'line': b'compilation terminated.\n'}
+[11.406615] (examples_rclcpp_minimal_action_server) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/action_server_not_composable.dir/build.make:76: CMakeFiles/action_server_not_composable.dir/not_composable.cpp.o] Error 1\n'}
+[11.417475] (examples_rclcpp_minimal_action_server) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/action_server_not_composable.dir/all] Error 2\n'}
+[11.418233] (examples_rclcpp_minimal_action_server) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[11.504370] (-) TimerEvent: {}
+[11.605029] (-) TimerEvent: {}
+[11.705747] (-) TimerEvent: {}
+[11.816305] (-) TimerEvent: {}
+[11.931465] (-) TimerEvent: {}
+[12.071230] (-) TimerEvent: {}
+[12.834635] (-) TimerEvent: {}
+[13.320996] (-) TimerEvent: {}
+[14.458556] (examples_rclcpp_async_client) StderrLine: {'line': b'\x1b[01m\x1b[Kc++:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KKilled signal terminated program cc1plus\n'}
+[14.463418] (-) TimerEvent: {}
+[14.464308] (examples_rclcpp_async_client) StderrLine: {'line': b'compilation terminated.\n'}
+[14.467201] (examples_rclcpp_async_client) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/client_main.dir/build.make:76: CMakeFiles/client_main.dir/main.cpp.o] Error 1\n'}
+[14.477451] (examples_rclcpp_async_client) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/client_main.dir/all] Error 2\n'}
+[14.485470] (examples_rclcpp_async_client) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[14.563578] (-) TimerEvent: {}
+[14.664063] (-) TimerEvent: {}
+[14.764535] (-) TimerEvent: {}
+[14.817871] (examples_rclpy_minimal_client) StdoutLine: {'line': b'running egg_info\n'}
+[14.855265] (examples_rclpy_minimal_client) StdoutLine: {'line': b'creating ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info\n'}
+[14.863507] (examples_rclpy_minimal_client) StdoutLine: {'line': b'writing ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/PKG-INFO\n'}
+[14.863673] (examples_rclpy_minimal_client) StdoutLine: {'line': b'writing dependency_links to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/dependency_links.txt\n'}
+[14.863792] (examples_rclpy_minimal_client) StdoutLine: {'line': b'writing entry points to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/entry_points.txt\n'}
+[14.863900] (examples_rclpy_minimal_client) StdoutLine: {'line': b'writing requirements to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/requires.txt\n'}
+[14.863976] (examples_rclpy_minimal_client) StdoutLine: {'line': b'writing top-level names to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/top_level.txt\n'}
+[14.864096] (examples_rclpy_minimal_client) StdoutLine: {'line': b"writing manifest file '../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/SOURCES.txt'\n"}
+[14.864155] (examples_rclpy_minimal_client) StdoutLine: {'line': b"reading manifest file '../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/SOURCES.txt'\n"}
+[14.864203] (examples_rclpy_minimal_client) StdoutLine: {'line': b"writing manifest file '../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/SOURCES.txt'\n"}
+[14.864252] (examples_rclpy_minimal_client) StdoutLine: {'line': b'running build\n'}
+[14.864298] (examples_rclpy_minimal_client) StdoutLine: {'line': b'running build_py\n'}
+[14.864341] (examples_rclpy_minimal_client) StdoutLine: {'line': b'creating /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_client/build\n'}
+[14.864388] (examples_rclpy_minimal_client) StdoutLine: {'line': b'creating /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_client/build/lib\n'}
+[14.864432] (examples_rclpy_minimal_client) StdoutLine: {'line': b'creating /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client\n'}
+[14.864474] (examples_rclpy_minimal_client) StdoutLine: {'line': b'copying examples_rclpy_minimal_client/__init__.py -> /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client\n'}
+[14.864540] (-) TimerEvent: {}
+[14.867678] (examples_rclpy_minimal_client) StdoutLine: {'line': b'copying examples_rclpy_minimal_client/client_async_callback.py -> /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client\n'}
+[14.868055] (examples_rclpy_minimal_client) StdoutLine: {'line': b'copying examples_rclpy_minimal_client/client_async.py -> /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client\n'}
+[14.868119] (examples_rclpy_minimal_client) StdoutLine: {'line': b'copying examples_rclpy_minimal_client/client.py -> /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client\n'}
+[14.868159] (examples_rclpy_minimal_client) StdoutLine: {'line': b'copying examples_rclpy_minimal_client/client_async_member_function.py -> /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client\n'}
+[14.868193] (examples_rclpy_minimal_client) StdoutLine: {'line': b'running install\n'}
+[14.868227] (examples_rclpy_minimal_client) StdoutLine: {'line': b'running install_lib\n'}
+[14.868261] (examples_rclpy_minimal_client) StdoutLine: {'line': b'creating /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client\n'}
+[14.868302] (examples_rclpy_minimal_client) StdoutLine: {'line': b'copying /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/__init__.py -> /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client\n'}
+[14.868354] (examples_rclpy_minimal_client) StdoutLine: {'line': b'copying /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/client_async_callback.py -> /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client\n'}
+[14.868395] (examples_rclpy_minimal_client) StdoutLine: {'line': b'copying /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/client_async.py -> /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client\n'}
+[14.868639] (examples_rclpy_minimal_client) StdoutLine: {'line': b'copying /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/client.py -> /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client\n'}
+[14.868724] (examples_rclpy_minimal_client) StdoutLine: {'line': b'copying /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/client_async_member_function.py -> /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client\n'}
+[14.869007] (examples_rclpy_minimal_client) StdoutLine: {'line': b'byte-compiling /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client/__init__.py to __init__.cpython-310.pyc\n'}
+[14.869118] (examples_rclpy_minimal_client) StdoutLine: {'line': b'byte-compiling /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client/client_async_callback.py to client_async_callback.cpython-310.pyc\n'}
+[14.869268] (examples_rclpy_minimal_client) StdoutLine: {'line': b'byte-compiling /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client/client_async.py to client_async.cpython-310.pyc\n'}
+[14.869366] (examples_rclpy_minimal_client) StdoutLine: {'line': b'byte-compiling /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client/client.py to client.cpython-310.pyc\n'}
+[14.869476] (examples_rclpy_minimal_client) StdoutLine: {'line': b'byte-compiling /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client/client_async_member_function.py to client_async_member_function.cpython-310.pyc\n'}
+[14.869579] (examples_rclpy_minimal_client) StdoutLine: {'line': b'running install_data\n'}
+[14.869659] (examples_rclpy_minimal_client) StdoutLine: {'line': b'creating /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_client/share/ament_index\n'}
+[14.869790] (examples_rclpy_minimal_client) StdoutLine: {'line': b'creating /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_client/share/ament_index/resource_index\n'}
+[14.869902] (examples_rclpy_minimal_client) StdoutLine: {'line': b'creating /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_client/share/ament_index/resource_index/packages\n'}
+[14.869962] (examples_rclpy_minimal_client) StdoutLine: {'line': b'copying resource/examples_rclpy_minimal_client -> /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_client/share/ament_index/resource_index/packages\n'}
+[14.870038] (examples_rclpy_minimal_client) StdoutLine: {'line': b'copying package.xml -> /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_client/share/examples_rclpy_minimal_client\n'}
+[14.870093] (examples_rclpy_minimal_client) StdoutLine: {'line': b'running install_egg_info\n'}
+[14.870138] (examples_rclpy_minimal_client) StdoutLine: {'line': b'Copying ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info to /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client-0.15.3-py3.10.egg-info\n'}
+[14.870193] (examples_rclpy_minimal_client) StdoutLine: {'line': b'running install_scripts\n'}
+[14.873335] (examples_rclpy_minimal_client) StdoutLine: {'line': b'Installing client script to /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client\n'}
+[14.874282] (examples_rclpy_minimal_client) StdoutLine: {'line': b'Installing client_async script to /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client\n'}
+[14.874721] (examples_rclpy_minimal_client) StdoutLine: {'line': b'Installing client_async_callback script to /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client\n'}
+[14.874819] (examples_rclpy_minimal_client) StdoutLine: {'line': b'Installing client_async_member_function script to /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client\n'}
+[14.876491] (examples_rclpy_minimal_client) StdoutLine: {'line': b"writing list of installed files to '/d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_client/install.log'\n"}
+[14.964844] (-) TimerEvent: {}
+[15.065873] (-) TimerEvent: {}
+[15.166726] (-) TimerEvent: {}
+[15.267682] (-) TimerEvent: {}
+[15.368084] (-) TimerEvent: {}
+[15.468449] (-) TimerEvent: {}
+[15.568996] (-) TimerEvent: {}
+[15.669491] (-) TimerEvent: {}
+[15.709993] (examples_rclpy_minimal_client) CommandEnded: {'returncode': 0}
+[15.734257] (examples_rclpy_minimal_client) JobEnded: {'identifier': 'examples_rclpy_minimal_client', 'rc': 0}
+[15.736215] (examples_rclcpp_async_client) CommandEnded: {'returncode': 2}
+[15.745590] (examples_rclpy_minimal_publisher) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../../../build/examples_rclpy_minimal_publisher', 'build', '--build-base', '/d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_publisher/build', 'install', '--record', '/d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_publisher/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/d2lros2/chap2/colcon_test_ws/src/examples/rclpy/topics/minimal_publisher', 'env': {'HOSTNAME': '0e8ea9b54e7a', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/d2lros2/chap2', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_publisher', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[15.753613] (examples_rclpy_minimal_service) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../../../build/examples_rclpy_minimal_service', 'build', '--build-base', '/d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_service/build', 'install', '--record', '/d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_service/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/d2lros2/chap2/colcon_test_ws/src/examples/rclpy/services/minimal_service', 'env': {'HOSTNAME': '0e8ea9b54e7a', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/d2lros2/chap2', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_service', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[15.769698] (-) TimerEvent: {}
+[15.886540] (-) TimerEvent: {}
+[15.994120] (-) TimerEvent: {}
+[16.222691] (-) TimerEvent: {}
+[16.495324] (-) TimerEvent: {}
+[16.885063] (examples_rclcpp_minimal_publisher) StderrLine: {'line': b'\x1b[01m\x1b[Kc++:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KKilled signal terminated program cc1plus\n'}
+[16.888602] (-) TimerEvent: {}
+[16.888894] (examples_rclcpp_minimal_publisher) StderrLine: {'line': b'compilation terminated.\n'}
+[16.895252] (examples_rclcpp_minimal_publisher) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/publisher_member_function_with_unique_network_flow_endpoints.dir/build.make:76: CMakeFiles/publisher_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o] Error 1\n'}
+[16.907648] (examples_rclcpp_minimal_publisher) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:225: CMakeFiles/publisher_member_function_with_unique_network_flow_endpoints.dir/all] Error 2\n'}
+[16.909135] (examples_rclcpp_minimal_publisher) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[16.964276] (examples_rclcpp_async_client) JobEnded: {'identifier': 'examples_rclcpp_async_client', 'rc': 2}
+[16.988946] (-) TimerEvent: {}
+[17.089550] (-) TimerEvent: {}
+[17.134501] (examples_rclpy_minimal_service) StdoutLine: {'line': b'running egg_info\n'}
+[17.135439] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[17.135767] (examples_rclpy_minimal_service) StdoutLine: {'line': b'creating ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info\n'}
+[17.135964] (examples_rclpy_minimal_service) StdoutLine: {'line': b'writing ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/PKG-INFO\n'}
+[17.136192] (examples_rclpy_minimal_service) StdoutLine: {'line': b'writing dependency_links to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/dependency_links.txt\n'}
+[17.136588] (examples_rclpy_minimal_service) StdoutLine: {'line': b'writing entry points to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/entry_points.txt\n'}
+[17.136808] (examples_rclpy_minimal_service) StdoutLine: {'line': b'writing requirements to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/requires.txt\n'}
+[17.137062] (examples_rclpy_minimal_service) StdoutLine: {'line': b'writing top-level names to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/top_level.txt\n'}
+[17.137320] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'creating ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info\n'}
+[17.137487] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'writing ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/PKG-INFO\n'}
+[17.137556] (examples_rclpy_minimal_service) StdoutLine: {'line': b"writing manifest file '../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'\n"}
+[17.137607] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'writing dependency_links to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/dependency_links.txt\n'}
+[17.137770] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'writing entry points to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/entry_points.txt\n'}
+[17.137836] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'writing requirements to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/requires.txt\n'}
+[17.137888] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'writing top-level names to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/top_level.txt\n'}
+[17.137970] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b"writing manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'\n"}
+[17.139383] (examples_rclpy_minimal_service) StdoutLine: {'line': b"reading manifest file '../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'\n"}
+[17.140007] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b"reading manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'\n"}
+[17.140389] (examples_rclpy_minimal_service) StdoutLine: {'line': b"writing manifest file '../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'\n"}
+[17.140658] (examples_rclpy_minimal_service) StdoutLine: {'line': b'running build\n'}
+[17.140811] (examples_rclpy_minimal_service) StdoutLine: {'line': b'running build_py\n'}
+[17.141074] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b"writing manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'\n"}
+[17.141195] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'running build\n'}
+[17.141255] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'running build_py\n'}
+[17.141298] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'creating /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_publisher/build\n'}
+[17.141390] (examples_rclpy_minimal_service) StdoutLine: {'line': b'creating /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_service/build\n'}
+[17.141442] (examples_rclpy_minimal_service) StdoutLine: {'line': b'creating /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_service/build/lib\n'}
+[17.141488] (examples_rclpy_minimal_service) StdoutLine: {'line': b'creating /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service\n'}
+[17.141537] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'creating /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_publisher/build/lib\n'}
+[17.141790] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'creating /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher\n'}
+[17.141905] (examples_rclpy_minimal_service) StdoutLine: {'line': b'copying examples_rclpy_minimal_service/__init__.py -> /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service\n'}
+[17.141979] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'copying examples_rclpy_minimal_publisher/__init__.py -> /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher\n'}
+[17.142108] (examples_rclpy_minimal_service) StdoutLine: {'line': b'copying examples_rclpy_minimal_service/service.py -> /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service\n'}
+[17.142265] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'copying examples_rclpy_minimal_publisher/publisher_old_school.py -> /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher\n'}
+[17.142371] (examples_rclpy_minimal_service) StdoutLine: {'line': b'copying examples_rclpy_minimal_service/service_member_function.py -> /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service\n'}
+[17.142587] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'copying examples_rclpy_minimal_publisher/publisher_local_function.py -> /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher\n'}
+[17.142780] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'copying examples_rclpy_minimal_publisher/publisher_member_function.py -> /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher\n'}
+[17.142846] (examples_rclpy_minimal_service) StdoutLine: {'line': b'running install\n'}
+[17.143019] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'running install\n'}
+[17.143223] (examples_rclpy_minimal_service) StdoutLine: {'line': b'running install_lib\n'}
+[17.143603] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'running install_lib\n'}
+[17.144874] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'creating /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher\n'}
+[17.145227] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'copying /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/__init__.py -> /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher\n'}
+[17.145545] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'copying /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_old_school.py -> /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher\n'}
+[17.145651] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'copying /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_local_function.py -> /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher\n'}
+[17.145860] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'copying /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_member_function.py -> /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher\n'}
+[17.146397] (examples_rclpy_minimal_service) StdoutLine: {'line': b'creating /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service\n'}
+[17.146724] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'byte-compiling /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/__init__.py to __init__.cpython-310.pyc\n'}
+[17.146921] (examples_rclpy_minimal_service) StdoutLine: {'line': b'copying /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/__init__.py -> /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service\n'}
+[17.147188] (examples_rclpy_minimal_service) StdoutLine: {'line': b'copying /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/service.py -> /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service\n'}
+[17.147285] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'byte-compiling /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/publisher_old_school.py to publisher_old_school.cpython-310.pyc\n'}
+[17.147373] (examples_rclpy_minimal_service) StdoutLine: {'line': b'copying /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/service_member_function.py -> /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service\n'}
+[17.147558] (examples_rclpy_minimal_service) StdoutLine: {'line': b'byte-compiling /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service/__init__.py to __init__.cpython-310.pyc\n'}
+[17.147757] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'byte-compiling /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/publisher_local_function.py to publisher_local_function.cpython-310.pyc\n'}
+[17.148206] (examples_rclpy_minimal_service) StdoutLine: {'line': b'byte-compiling /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service/service.py to service.cpython-310.pyc\n'}
+[17.148331] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'byte-compiling /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/publisher_member_function.py to publisher_member_function.cpython-310.pyc\n'}
+[17.148596] (examples_rclpy_minimal_service) StdoutLine: {'line': b'byte-compiling /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service/service_member_function.py to service_member_function.cpython-310.pyc\n'}
+[17.148670] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'running install_data\n'}
+[17.148717] (examples_rclpy_minimal_service) StdoutLine: {'line': b'running install_data\n'}
+[17.148781] (examples_rclpy_minimal_service) StdoutLine: {'line': b'creating /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_service/share/ament_index\n'}
+[17.149084] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'creating /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_publisher/share/ament_index\n'}
+[17.149350] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'creating /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index\n'}
+[17.149457] (examples_rclpy_minimal_service) StdoutLine: {'line': b'creating /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index\n'}
+[17.149516] (examples_rclpy_minimal_service) StdoutLine: {'line': b'creating /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index/packages\n'}
+[17.149732] (examples_rclpy_minimal_service) StdoutLine: {'line': b'copying resource/examples_rclpy_minimal_service -> /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index/packages\n'}
+[17.149845] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'creating /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index/packages\n'}
+[17.149994] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'copying resource/examples_rclpy_minimal_publisher -> /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index/packages\n'}
+[17.150052] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'copying package.xml -> /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_publisher/share/examples_rclpy_minimal_publisher\n'}
+[17.150167] (examples_rclpy_minimal_service) StdoutLine: {'line': b'copying package.xml -> /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_service/share/examples_rclpy_minimal_service\n'}
+[17.150284] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'running install_egg_info\n'}
+[17.150337] (examples_rclpy_minimal_service) StdoutLine: {'line': b'running install_egg_info\n'}
+[17.152799] (examples_rclpy_minimal_service) StdoutLine: {'line': b'Copying ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info to /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service-0.15.3-py3.10.egg-info\n'}
+[17.153278] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'Copying ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info to /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher-0.15.3-py3.10.egg-info\n'}
+[17.153672] (examples_rclpy_minimal_service) StdoutLine: {'line': b'running install_scripts\n'}
+[17.154270] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'running install_scripts\n'}
+[17.189693] (-) TimerEvent: {}
+[17.192305] (examples_rclpy_minimal_service) StdoutLine: {'line': b'Installing service script to /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service\n'}
+[17.195668] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'Installing publisher_local_function script to /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher\n'}
+[17.196214] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'Installing publisher_member_function script to /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher\n'}
+[17.196566] (examples_rclpy_minimal_service) StdoutLine: {'line': b'Installing service_member_function script to /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service\n'}
+[17.196685] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'Installing publisher_old_school script to /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher\n'}
+[17.197060] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b"writing list of installed files to '/d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_publisher/install.log'\n"}
+[17.197245] (examples_rclpy_minimal_service) StdoutLine: {'line': b"writing list of installed files to '/d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_service/install.log'\n"}
+[17.233056] (examples_rclpy_minimal_publisher) JobEnded: {'identifier': 'examples_rclpy_minimal_publisher', 'rc': 'SIGINT'}
+[17.253342] (examples_rclpy_minimal_service) JobEnded: {'identifier': 'examples_rclpy_minimal_service', 'rc': 'SIGINT'}
+[17.289844] (-) TimerEvent: {}
+[17.308219] (launch_testing_examples) JobEnded: {'identifier': 'launch_testing_examples', 'rc': 'SIGINT'}
+[17.317051] (examples_rclpy_minimal_subscriber) JobEnded: {'identifier': 'examples_rclpy_minimal_subscriber', 'rc': 'SIGINT'}
+[17.332176] (examples_rclpy_pointcloud_publisher) JobEnded: {'identifier': 'examples_rclpy_pointcloud_publisher', 'rc': 'SIGINT'}
+[17.389967] (-) TimerEvent: {}
+[17.490431] (-) TimerEvent: {}
+[17.590857] (-) TimerEvent: {}
+[17.691651] (-) TimerEvent: {}
+[17.792236] (-) TimerEvent: {}
+[17.892727] (-) TimerEvent: {}
+[17.993291] (-) TimerEvent: {}
+[18.093774] (-) TimerEvent: {}
+[18.194236] (-) TimerEvent: {}
+[18.294604] (-) TimerEvent: {}
+[18.394996] (-) TimerEvent: {}
+[18.495421] (-) TimerEvent: {}
+[18.595904] (-) TimerEvent: {}
+[18.696346] (-) TimerEvent: {}
+[18.796815] (-) TimerEvent: {}
+[18.897315] (-) TimerEvent: {}
+[18.999005] (-) TimerEvent: {}
+[19.099806] (-) TimerEvent: {}
+[19.200764] (-) TimerEvent: {}
+[19.302113] (-) TimerEvent: {}
+[19.402835] (-) TimerEvent: {}
+[19.503606] (-) TimerEvent: {}
+[19.604363] (-) TimerEvent: {}
+[19.704986] (-) TimerEvent: {}
+[19.805734] (-) TimerEvent: {}
+[19.906227] (-) TimerEvent: {}
+[20.007287] (-) TimerEvent: {}
+[20.126221] (-) TimerEvent: {}
+[20.292530] (-) TimerEvent: {}
+[20.511821] (-) TimerEvent: {}
+[20.631902] (-) TimerEvent: {}
+[20.813798] (-) TimerEvent: {}
+[20.974299] (-) TimerEvent: {}
+[21.592858] (-) TimerEvent: {}
+[21.835566] (-) TimerEvent: {}
+[22.158030] (-) TimerEvent: {}
+[22.891162] (-) TimerEvent: {}
+[23.029739] (-) TimerEvent: {}
+[23.190066] (-) TimerEvent: {}
+[23.305140] (-) TimerEvent: {}
+[23.462835] (-) TimerEvent: {}
+[25.015582] (-) TimerEvent: {}
+[26.146209] (examples_rclcpp_minimal_subscriber) StderrLine: {'line': b'\x1b[01m\x1b[Kc++:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KKilled signal terminated program cc1plus\n'}
+[26.155151] (-) TimerEvent: {}
+[26.155614] (examples_rclcpp_minimal_subscriber) StderrLine: {'line': b'compilation terminated.\n'}
+[26.156135] (examples_rclcpp_minimal_subscriber) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/subscriber_lambda.dir/build.make:76: CMakeFiles/subscriber_lambda.dir/lambda.cpp.o] Error 1\n'}
+[26.163835] (examples_rclcpp_minimal_subscriber) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:157: CMakeFiles/subscriber_lambda.dir/all] Error 2\n'}
+[26.165226] (examples_rclcpp_minimal_subscriber) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[26.255306] (-) TimerEvent: {}
+[26.355904] (-) TimerEvent: {}
+[26.456442] (-) TimerEvent: {}
+[26.556928] (-) TimerEvent: {}
+[26.657720] (-) TimerEvent: {}
+[26.759119] (-) TimerEvent: {}
+[26.859808] (-) TimerEvent: {}
+[26.960304] (-) TimerEvent: {}
+[27.060673] (-) TimerEvent: {}
+[27.161293] (-) TimerEvent: {}
+[27.261897] (-) TimerEvent: {}
+[27.362703] (-) TimerEvent: {}
+[27.463063] (-) TimerEvent: {}
+[27.567332] (-) TimerEvent: {}
+[27.667904] (-) TimerEvent: {}
+[27.768496] (-) TimerEvent: {}
+[27.868973] (-) TimerEvent: {}
+[27.969509] (-) TimerEvent: {}
+[28.022368] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable publisher_not_composable\x1b[0m\n'}
+[28.053943] (examples_rclcpp_wait_set) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX executable wait_set_composed\x1b[0m\n'}
+[28.069655] (-) TimerEvent: {}
+[28.170136] (-) TimerEvent: {}
+[28.226379] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable pong\x1b[0m\n'}
+[28.270374] (-) TimerEvent: {}
+[28.344006] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX executable time_triggered_wait_set_subscriber\x1b[0m\n'}
+[28.370544] (-) TimerEvent: {}
+[28.422294] (examples_rclcpp_wait_set) StdoutLine: {'line': b'[ 79%] Built target wait_set_composed\n'}
+[28.470792] (-) TimerEvent: {}
+[28.473238] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'[ 66%] Built target publisher_not_composable\n'}
+[28.544217] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 70%] Built target time_triggered_wait_set_subscriber\n'}
+[28.570941] (-) TimerEvent: {}
+[28.671531] (-) TimerEvent: {}
+[28.772338] (-) TimerEvent: {}
+[28.791652] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'[ 70%] Built target pong\n'}
+[28.807715] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable static_wait_set_subscriber\x1b[0m\n'}
+[28.872435] (-) TimerEvent: {}
+[28.972913] (-) TimerEvent: {}
+[28.995878] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 75%] Built target static_wait_set_subscriber\n'}
+[29.000695] (examples_rclcpp_wait_set) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable wait_set_listener\x1b[0m\n'}
+[29.073170] (-) TimerEvent: {}
+[29.162180] (examples_rclcpp_wait_set) StdoutLine: {'line': b'[ 83%] Built target wait_set_listener\n'}
+[29.173293] (-) TimerEvent: {}
+[29.230306] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable publisher_member_function\x1b[0m\n'}
+[29.273442] (-) TimerEvent: {}
+[29.373902] (-) TimerEvent: {}
+[29.471085] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'[ 75%] Built target publisher_member_function\n'}
+[29.474061] (-) TimerEvent: {}
+[29.553497] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX executable wait_set_subscriber\x1b[0m\n'}
+[29.574255] (-) TimerEvent: {}
+[29.661967] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable client_main\x1b[0m\n'}
+[29.674449] (-) TimerEvent: {}
+[29.708688] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 79%] Built target wait_set_subscriber\n'}
+[29.751421] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable action_server_member_functions\x1b[0m\n'}
+[29.774644] (-) TimerEvent: {}
+[29.875271] (-) TimerEvent: {}
+[29.884849] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable publisher_member_function_with_type_adapter\x1b[0m\n'}
+[29.894082] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'[100%] Built target client_main\n'}
+[29.980603] (examples_rclcpp_minimal_client) JobEnded: {'identifier': 'examples_rclcpp_minimal_client', 'rc': 'SIGINT'}
+[29.986503] (-) TimerEvent: {}
+[29.987666] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'[ 75%] Built target action_server_member_functions\n'}
+[29.987969] (examples_rclcpp_minimal_action_server) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[30.035313] (examples_rclcpp_minimal_action_server) JobEnded: {'identifier': 'examples_rclcpp_minimal_action_server', 'rc': 'SIGINT'}
+[30.085190] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'[ 83%] Built target publisher_member_function_with_type_adapter\n'}
+[30.086623] (-) TimerEvent: {}
+[30.187066] (-) TimerEvent: {}
+[30.287510] (-) TimerEvent: {}
+[30.387978] (-) TimerEvent: {}
+[30.471414] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable action_client_not_composable_with_cancel\x1b[0m\n'}
+[30.488119] (-) TimerEvent: {}
+[30.588590] (-) TimerEvent: {}
+[30.637981] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'[ 87%] Built target action_client_not_composable_with_cancel\n'}
+[30.688731] (-) TimerEvent: {}
+[30.789189] (-) TimerEvent: {}
+[30.868336] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX executable publisher_wait_for_all_acked\x1b[0m\n'}
+[30.889369] (-) TimerEvent: {}
+[30.989965] (-) TimerEvent: {}
+[31.024541] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'[ 91%] Built target publisher_wait_for_all_acked\n'}
+[31.033000] (examples_rclcpp_minimal_publisher) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[31.077121] (examples_rclcpp_minimal_publisher) JobEnded: {'identifier': 'examples_rclcpp_minimal_publisher', 'rc': 'SIGINT'}
+[31.090094] (-) TimerEvent: {}
+[31.190465] (-) TimerEvent: {}
+[31.290861] (-) TimerEvent: {}
+[31.391254] (-) TimerEvent: {}
+[31.491832] (-) TimerEvent: {}
+[31.592363] (-) TimerEvent: {}
+[31.653265] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable action_client_member_functions\x1b[0m\n'}
+[31.692507] (-) TimerEvent: {}
+[31.787891] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'[100%] Built target action_client_member_functions\n'}
+[31.792662] (-) TimerEvent: {}
+[31.845962] (examples_rclcpp_minimal_action_client) JobEnded: {'identifier': 'examples_rclcpp_minimal_action_client', 'rc': 'SIGINT'}
+[31.892795] (-) TimerEvent: {}
+[31.993185] (-) TimerEvent: {}
+[32.093602] (-) TimerEvent: {}
+[32.194053] (-) TimerEvent: {}
+[32.294670] (-) TimerEvent: {}
+[32.395205] (-) TimerEvent: {}
+[32.495772] (-) TimerEvent: {}
+[32.596185] (-) TimerEvent: {}
+[32.696731] (-) TimerEvent: {}
+[32.797151] (-) TimerEvent: {}
+[32.897612] (-) TimerEvent: {}
+[32.998173] (-) TimerEvent: {}
+[33.098602] (-) TimerEvent: {}
+[33.199223] (-) TimerEvent: {}
+[33.299651] (-) TimerEvent: {}
+[33.400013] (-) TimerEvent: {}
+[33.500453] (-) TimerEvent: {}
+[33.600946] (-) TimerEvent: {}
+[33.701419] (-) TimerEvent: {}
+[33.801838] (-) TimerEvent: {}
+[33.902266] (-) TimerEvent: {}
+[34.002700] (-) TimerEvent: {}
+[34.103224] (-) TimerEvent: {}
+[34.203603] (-) TimerEvent: {}
+[34.232001] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX shared library libcomposition_nodes.so\x1b[0m\n'}
+[34.303850] (-) TimerEvent: {}
+[34.404424] (-) TimerEvent: {}
+[34.504877] (-) TimerEvent: {}
+[34.583456] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'[ 33%] Built target composition_nodes\n'}
+[34.605051] (-) TimerEvent: {}
+[34.605385] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/composition_subscriber.dir/src/standalone_subscriber.cpp.o\x1b[0m\n'}
+[34.606853] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/composition_publisher.dir/src/standalone_publisher.cpp.o\x1b[0m\n'}
+[34.607188] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/composition_composed.dir/src/composed.cpp.o\x1b[0m\n'}
+[34.705208] (-) TimerEvent: {}
+[34.805725] (-) TimerEvent: {}
+[34.906358] (-) TimerEvent: {}
+[34.976764] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable subscriber_not_composable\x1b[0m\n'}
+[35.006488] (-) TimerEvent: {}
+[35.106969] (-) TimerEvent: {}
+[35.207552] (-) TimerEvent: {}
+[35.307997] (-) TimerEvent: {}
+[35.319841] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 83%] Built target subscriber_not_composable\n'}
+[35.408246] (-) TimerEvent: {}
+[35.508825] (-) TimerEvent: {}
+[35.584601] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable subscriber_member_function\x1b[0m\n'}
+[35.600681] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX executable subscriber_content_filtering\x1b[0m\n'}
+[35.609012] (-) TimerEvent: {}
+[35.709634] (-) TimerEvent: {}
+[35.810101] (-) TimerEvent: {}
+[35.870615] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable subscriber_member_function_with_topic_statistics\x1b[0m\n'}
+[35.910352] (-) TimerEvent: {}
+[35.948086] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 95%] Built target subscriber_member_function\n'}
+[35.972238] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 95%] Built target subscriber_content_filtering\n'}
+[36.010506] (-) TimerEvent: {}
+[36.111099] (-) TimerEvent: {}
+[36.159735] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 95%] Built target subscriber_member_function_with_topic_statistics\n'}
+[36.167424] (examples_rclcpp_minimal_subscriber) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[36.199717] (examples_rclcpp_minimal_subscriber) JobEnded: {'identifier': 'examples_rclcpp_minimal_subscriber', 'rc': 'SIGINT'}
+[36.211265] (-) TimerEvent: {}
+[36.301700] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable ping_pong\x1b[0m\n'}
+[36.311626] (-) TimerEvent: {}
+[36.412162] (-) TimerEvent: {}
+[36.513459] (-) TimerEvent: {}
+[36.528189] (examples_rclcpp_wait_set) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable thread_safe_wait_set\x1b[0m\n'}
+[36.528916] (examples_rclcpp_wait_set) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX executable wait_set_random_order\x1b[0m\n'}
+[36.613622] (-) TimerEvent: {}
+[36.714078] (-) TimerEvent: {}
+[36.814695] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'[100%] Built target ping_pong\n'}
+[36.814917] (-) TimerEvent: {}
+[36.865632] (examples_rclcpp_cbg_executor) JobEnded: {'identifier': 'examples_rclcpp_cbg_executor', 'rc': 'SIGINT'}
+[36.869871] (examples_rclcpp_wait_set) StdoutLine: {'line': b'[ 91%] Built target wait_set_random_order\n'}
+[36.895740] (examples_rclcpp_wait_set) StdoutLine: {'line': b'[ 91%] Built target thread_safe_wait_set\n'}
+[36.901912] (examples_rclcpp_wait_set) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[36.915089] (-) TimerEvent: {}
+[36.929429] (examples_rclcpp_wait_set) JobEnded: {'identifier': 'examples_rclcpp_wait_set', 'rc': 'SIGINT'}
+[37.015265] (-) TimerEvent: {}
+[37.115780] (-) TimerEvent: {}
+[37.216153] (-) TimerEvent: {}
+[37.275341] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX executable composition_publisher\x1b[0m\n'}
+[37.311432] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX executable composition_composed\x1b[0m\n'}
+[37.316266] (-) TimerEvent: {}
+[37.328132] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable composition_subscriber\x1b[0m\n'}
+[37.387028] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'[100%] Built target composition_publisher\n'}
+[37.416538] (-) TimerEvent: {}
+[37.434641] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'[100%] Built target composition_composed\n'}
+[37.449422] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'[100%] Built target composition_subscriber\n'}
+[37.489779] (examples_rclcpp_minimal_composition) JobEnded: {'identifier': 'examples_rclcpp_minimal_composition', 'rc': 'SIGINT'}
+[37.505327] (-) EventReactorShutdown: {}

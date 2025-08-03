@@ -1,0 +1,62 @@
+[01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:12:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+   12 |     rclcpp::Subscription<[01;31m[Kstd_msgs[m[K::msg::String>::SharedPtr command_subscriber_;
+      |                          [01;31m[K^~~~~~~~[m[K
+[01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:12:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   12 |     rclcpp::Subscription<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr command_subscriber_;
+      |                                               [01;31m[K^[m[K
+[01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:12:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:12:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:12:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:12:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   12 |     rclcpp::Subscription<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K command_subscriber_;
+      |                                                  [01;31m[K^~~~~~~~~[m[K
+      |                                                           [32m[K;[m[K
+[01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:12:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommand_subscriber_[m[K’ does not name a type
+   12 |     rclcpp::Subscription<std_msgs::msg::String>::SharedPtr [01;31m[Kcommand_subscriber_[m[K;
+      |                                                            [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:13:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ does not name a type
+   13 |     void command_callback(const [01;31m[Kstd_msgs[m[K::msg::String::SharedPtr msg) {
+      |                                 [01;31m[K^~~~~~~~[m[K
+[01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:13:46:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+   13 |     void command_callback(const std_msgs::msg[01;31m[K::[m[KString::SharedPtr msg) {
+      |                                              [01;31m[K^~[m[K
+[01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:13:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+   13 |     void command_callback[34m[K([m[Kconst std_msgs::msg[01;31m[K:[m[K[32m[K:[m[KString::SharedPtr msg) {
+      |                          [34m[K~[m[K                   [01;31m[K^[m[K[32m[K~[m[K
+      |                                              [32m[K)[m[K
+[01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:13:43:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   13 |     void command_callback(const std_msgs::[01;31m[Kmsg[m[K::String::SharedPtr msg) {
+      |                                           [01;31m[K^~~[m[K
+      |                                              [32m[K;[m[K
+[01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:13:48:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+   13 |     void command_callback(const std_msgs::msg::[01;31m[KString[m[K::SharedPtr msg) {
+      |                                                [01;31m[K^~~~~~[m[K
+[01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:[m[K In constructor ‘[01m[KTopicsubscribe01::Topicsubscribe01(std::string)[m[K’:
+[01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:9:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommand_subscriber_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_subscribers[m[K’?
+    9 |         [01;31m[Kcommand_subscriber_[m[K = this->create_subscription<std_msgs::msg::String>("command", 10, std::bind(&Topicsubscribe01::command_callback, this, std::placeholders::_1));
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kcount_subscribers[m[K
+[01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:9:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+    9 |         command_subscriber_ = this->create_subscription<[01;31m[Kstd_msgs[m[K::msg::String>("command", 10, std::bind(&Topicsubscribe01::command_callback, this, std::placeholders::_1));
+      |                                                         [01;31m[K^~~~~~~~[m[K
+[01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:9:37:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+    9 |         command_subscriber_ = this->[01;31m[Kcreate_subscription<std_msgs::msg::String>[m[K("command", 10, std::bind(&Topicsubscribe01::command_callback, this, std::placeholders::_1));
+      |                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:9:79:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTopicsubscribe01::create_subscription<<expression error> >(const char [8], int, std::_Bind_helper<false, void (Topicsubscribe01::*)(...), Topicsubscribe01*, const std::_Placeholder<1>&>::type)[m[K’
+    9 |         command_subscriber_ = [01;31m[Kthis->create_subscription<std_msgs::msg::String>("command", 10, std::bind(&Topicsubscribe01::command_callback, this, std::placeholders::_1))[m[K;
+      |                               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  219 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:9:79:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    9 |         command_subscriber_ = [01;31m[Kthis->create_subscription<std_msgs::msg::String>("command", 10, std::bind(&Topicsubscribe01::command_callback, this, std::placeholders::_1))[m[K;
+      |                               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/topic_subscribe_01.dir/build.make:76: CMakeFiles/topic_subscribe_01.dir/src/topic_subscribe_01.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/topic_subscribe_01.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

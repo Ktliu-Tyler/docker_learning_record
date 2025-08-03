@@ -1,0 +1,111 @@
+[0.009s] Invoking command in '/d2lros2/chap3/chapt3_ws/src/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp -DCMAKE_INSTALL_PREFIX=/d2lros2/chap3/chapt3_ws/src/install/example_topic_rclcpp
+[0.127s] -- The C compiler identification is GNU 11.4.0
+[0.191s] -- The CXX compiler identification is GNU 11.4.0
+[0.201s] -- Detecting C compiler ABI info
+[0.249s] -- Detecting C compiler ABI info - done
+[0.254s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.254s] -- Detecting C compile features
+[0.255s] -- Detecting C compile features - done
+[0.257s] -- Detecting CXX compiler ABI info
+[0.301s] -- Detecting CXX compiler ABI info - done
+[0.306s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.306s] -- Detecting CXX compile features
+[0.306s] -- Detecting CXX compile features - done
+[0.316s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.408s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.479s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.526s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.532s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.540s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.558s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.575s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.617s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.620s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.683s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.699s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.724s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.732s] -- Looking for pthread.h
+[0.779s] -- Looking for pthread.h - found
+[0.779s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.818s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.818s] -- Found Threads: TRUE  
+[0.863s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.917s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.917s] -- Configured cppcheck include dirs: 
+[0.917s] -- Configured cppcheck exclude dirs and/or files: 
+[0.918s] -- Added test 'lint_cmake' to check CMake code style
+[0.919s] -- Added test 'uncrustify' to check C / C++ code style
+[0.919s] -- Configured uncrustify additional arguments: 
+[0.920s] -- Added test 'xmllint' to check XML markup files
+[0.922s] -- Configuring done
+[0.931s] -- Generating done
+[0.932s] -- Build files have been written to: /d2lros2/chap3/chapt3_ws/src/build/example_topic_rclcpp
+[0.937s] Invoked command in '/d2lros2/chap3/chapt3_ws/src/build/example_topic_rclcpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp -DCMAKE_INSTALL_PREFIX=/d2lros2/chap3/chapt3_ws/src/install/example_topic_rclcpp
+[0.938s] Invoking command in '/d2lros2/chap3/chapt3_ws/src/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /d2lros2/chap3/chapt3_ws/src/build/example_topic_rclcpp -- -j16 -l16
+[0.964s] [ 50%] [32mBuilding CXX object CMakeFiles/topic_subscribe_01.dir/src/topic_subscribe_01.cpp.o[0m
+[0.964s] [ 50%] [32mBuilding CXX object CMakeFiles/topic_publisher_01.dir/src/topic_publisher_01.cpp.o[0m
+[2.592s] [01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:12:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+[2.592s]    12 |     rclcpp::Subscription<[01;31m[Kstd_msgs[m[K::msg::String>::SharedPtr command_subscriber_;
+[2.592s]       |                          [01;31m[K^~~~~~~~[m[K
+[2.592s] [01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:12:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.592s]    12 |     rclcpp::Subscription<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr command_subscriber_;
+[2.592s]       |                                               [01;31m[K^[m[K
+[2.592s] [01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:12:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[2.592s] [01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:12:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[2.592s] [01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:12:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[2.592s] [01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:12:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.592s]    12 |     rclcpp::Subscription<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K command_subscriber_;
+[2.593s]       |                                                  [01;31m[K^~~~~~~~~[m[K
+[2.593s]       |                                                           [32m[K;[m[K
+[2.594s] [01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:12:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommand_subscriber_[m[K’ does not name a type
+[2.594s]    12 |     rclcpp::Subscription<std_msgs::msg::String>::SharedPtr [01;31m[Kcommand_subscriber_[m[K;
+[2.594s]       |                                                            [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.595s] [01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:13:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ does not name a type
+[2.595s]    13 |     void command_callback(const [01;31m[Kstd_msgs[m[K::msg::String::SharedPtr msg) {
+[2.595s]       |                                 [01;31m[K^~~~~~~~[m[K
+[2.595s] [01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:13:46:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[2.595s]    13 |     void command_callback(const std_msgs::msg[01;31m[K::[m[KString::SharedPtr msg) {
+[2.595s]       |                                              [01;31m[K^~[m[K
+[2.595s] [01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:13:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[2.595s]    13 |     void command_callback[34m[K([m[Kconst std_msgs::msg[01;31m[K:[m[K[32m[K:[m[KString::SharedPtr msg) {
+[2.595s]       |                          [34m[K~[m[K                   [01;31m[K^[m[K[32m[K~[m[K
+[2.595s]       |                                              [32m[K)[m[K
+[2.595s] [01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:13:43:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.595s]    13 |     void command_callback(const std_msgs::[01;31m[Kmsg[m[K::String::SharedPtr msg) {
+[2.595s]       |                                           [01;31m[K^~~[m[K
+[2.595s]       |                                              [32m[K;[m[K
+[2.596s] [01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:13:48:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+[2.596s]    13 |     void command_callback(const std_msgs::msg::[01;31m[KString[m[K::SharedPtr msg) {
+[2.596s]       |                                                [01;31m[K^~~~~~[m[K
+[2.601s] [01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:[m[K In constructor ‘[01m[KTopicsubscribe01::Topicsubscribe01(std::string)[m[K’:
+[2.601s] [01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:9:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommand_subscriber_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_subscribers[m[K’?
+[2.601s]     9 |         [01;31m[Kcommand_subscriber_[m[K = this->create_subscription<std_msgs::msg::String>("command", 10, std::bind(&Topicsubscribe01::command_callback, this, std::placeholders::_1));
+[2.601s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.601s]       |         [32m[Kcount_subscribers[m[K
+[2.605s] [01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:9:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+[2.605s]     9 |         command_subscriber_ = this->create_subscription<[01;31m[Kstd_msgs[m[K::msg::String>("command", 10, std::bind(&Topicsubscribe01::command_callback, this, std::placeholders::_1));
+[2.605s]       |                                                         [01;31m[K^~~~~~~~[m[K
+[2.605s] [01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:9:37:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[2.605s]     9 |         command_subscriber_ = this->[01;31m[Kcreate_subscription<std_msgs::msg::String>[m[K("command", 10, std::bind(&Topicsubscribe01::command_callback, this, std::placeholders::_1));
+[2.605s]       |                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.608s] [01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:9:79:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTopicsubscribe01::create_subscription<<expression error> >(const char [8], int, std::_Bind_helper<false, void (Topicsubscribe01::*)(...), Topicsubscribe01*, const std::_Placeholder<1>&>::type)[m[K’
+[2.608s]     9 |         command_subscriber_ = [01;31m[Kthis->create_subscription<std_msgs::msg::String>("command", 10, std::bind(&Topicsubscribe01::command_callback, this, std::placeholders::_1))[m[K;
+[2.608s]       |                               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.609s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.609s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.609s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.609s]                  from [01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:1[m[K:
+[2.609s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[2.609s]   219 |   [01;36m[Kcreate_subscription[m[K(
+[2.609s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.609s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.609s] [01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:9:79:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.609s]     9 |         command_subscriber_ = [01;31m[Kthis->create_subscription<std_msgs::msg::String>("command", 10, std::bind(&Topicsubscribe01::command_callback, this, std::placeholders::_1))[m[K;
+[2.609s]       |                               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.932s] gmake[2]: *** [CMakeFiles/topic_subscribe_01.dir/build.make:76: CMakeFiles/topic_subscribe_01.dir/src/topic_subscribe_01.cpp.o] Error 1
+[2.932s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/topic_subscribe_01.dir/all] Error 2
+[2.932s] gmake[1]: *** Waiting for unfinished jobs....
+[4.003s] [ 75%] [32m[1mLinking CXX executable topic_publisher_01[0m
+[4.230s] [ 75%] Built target topic_publisher_01
+[4.231s] gmake: *** [Makefile:146: all] Error 2
+[4.240s] Invoked command in '/d2lros2/chap3/chapt3_ws/src/build/example_topic_rclcpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /d2lros2/chap3/chapt3_ws/src/build/example_topic_rclcpp -- -j16 -l16

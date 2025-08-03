@@ -1,0 +1,24 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/topic_subscribe_01.dir/src/topic_subscribe_01.cpp.o[0m
+[ 75%] Built target topic_publisher_01
+[100%] [32m[1mLinking CXX executable topic_subscribe_01[0m
+[100%] Built target topic_subscribe_01
+-- Install configuration: ""
+-- Installing: /d2lros2/chap3/chapt3_ws/src/install/example_topic_rclcpp/share/ament_index/resource_index/package_run_dependencies/example_topic_rclcpp
+-- Installing: /d2lros2/chap3/chapt3_ws/src/install/example_topic_rclcpp/share/ament_index/resource_index/parent_prefix_path/example_topic_rclcpp
+-- Installing: /d2lros2/chap3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/ament_prefix_path.sh
+-- Installing: /d2lros2/chap3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/ament_prefix_path.dsv
+-- Installing: /d2lros2/chap3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/path.sh
+-- Installing: /d2lros2/chap3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/path.dsv
+-- Installing: /d2lros2/chap3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.bash
+-- Installing: /d2lros2/chap3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.sh
+-- Installing: /d2lros2/chap3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.zsh
+-- Installing: /d2lros2/chap3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.dsv
+-- Installing: /d2lros2/chap3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/package.dsv
+-- Installing: /d2lros2/chap3/chapt3_ws/src/install/example_topic_rclcpp/share/ament_index/resource_index/packages/example_topic_rclcpp
+-- Installing: /d2lros2/chap3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/cmake/example_topic_rclcppConfig.cmake
+-- Installing: /d2lros2/chap3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/cmake/example_topic_rclcppConfig-version.cmake
+-- Installing: /d2lros2/chap3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/package.xml
+-- Installing: /d2lros2/chap3/chapt3_ws/src/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_publisher_01
+-- Set runtime path of "/d2lros2/chap3/chapt3_ws/src/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_publisher_01" to ""
+-- Installing: /d2lros2/chap3/chapt3_ws/src/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_subscribe_01
+-- Set runtime path of "/d2lros2/chap3/chapt3_ws/src/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_subscribe_01" to ""

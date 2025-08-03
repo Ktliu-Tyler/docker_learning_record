@@ -1,0 +1,117 @@
+[0.000000] (-) TimerEvent: {}
+[0.001561] (example_topic_rclcpp) JobQueued: {'identifier': 'example_topic_rclcpp', 'dependencies': OrderedDict()}
+[0.001736] (example_topic_rclcpp) JobStarted: {'identifier': 'example_topic_rclcpp'}
+[0.031102] (example_topic_rclcpp) JobProgress: {'identifier': 'example_topic_rclcpp', 'progress': 'cmake'}
+[0.033211] (example_topic_rclcpp) JobProgress: {'identifier': 'example_topic_rclcpp', 'progress': 'build'}
+[0.035422] (example_topic_rclcpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/d2lros2/chap3/chapt3_ws/build/example_topic_rclcpp', '--', '-j16', '-l16'], 'cwd': '/d2lros2/chap3/chapt3_ws/build/example_topic_rclcpp', 'env': OrderedDict([('HOSTNAME', '0e8ea9b54e7a'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/d2lros2/chap3/chapt3_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/d2lros2/chap3/chapt3_ws/build/example_topic_rclcpp'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099024] (-) TimerEvent: {}
+[0.199896] (-) TimerEvent: {}
+[0.200737] (example_topic_rclcpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target topic_subscribe_01\x1b[0m\n'}
+[0.243676] (example_topic_rclcpp) StdoutLine: {'line': b'[ 50%] Built target topic_publisher_01\n'}
+[0.267680] (example_topic_rclcpp) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/topic_subscribe_01.dir/src/topic_subscribe_01.cpp.o\x1b[0m\n'}
+[0.300120] (-) TimerEvent: {}
+[0.400992] (-) TimerEvent: {}
+[0.501927] (-) TimerEvent: {}
+[0.602732] (-) TimerEvent: {}
+[0.703619] (-) TimerEvent: {}
+[0.804678] (-) TimerEvent: {}
+[0.905535] (-) TimerEvent: {}
+[1.006368] (-) TimerEvent: {}
+[1.107114] (-) TimerEvent: {}
+[1.207919] (-) TimerEvent: {}
+[1.308630] (-) TimerEvent: {}
+[1.409306] (-) TimerEvent: {}
+[1.510042] (-) TimerEvent: {}
+[1.610966] (-) TimerEvent: {}
+[1.711670] (-) TimerEvent: {}
+[1.812338] (-) TimerEvent: {}
+[1.913179] (-) TimerEvent: {}
+[2.013936] (-) TimerEvent: {}
+[2.114745] (-) TimerEvent: {}
+[2.215670] (-) TimerEvent: {}
+[2.316646] (-) TimerEvent: {}
+[2.417593] (-) TimerEvent: {}
+[2.518501] (-) TimerEvent: {}
+[2.619184] (-) TimerEvent: {}
+[2.720299] (-) TimerEvent: {}
+[2.821066] (-) TimerEvent: {}
+[2.921819] (-) TimerEvent: {}
+[3.022568] (-) TimerEvent: {}
+[3.123424] (-) TimerEvent: {}
+[3.224151] (-) TimerEvent: {}
+[3.324955] (-) TimerEvent: {}
+[3.426011] (-) TimerEvent: {}
+[3.526685] (-) TimerEvent: {}
+[3.627373] (-) TimerEvent: {}
+[3.728056] (-) TimerEvent: {}
+[3.828717] (-) TimerEvent: {}
+[3.929452] (-) TimerEvent: {}
+[4.030423] (-) TimerEvent: {}
+[4.131370] (-) TimerEvent: {}
+[4.232943] (-) TimerEvent: {}
+[4.334089] (-) TimerEvent: {}
+[4.435256] (-) TimerEvent: {}
+[4.536105] (-) TimerEvent: {}
+[4.636910] (-) TimerEvent: {}
+[4.737652] (-) TimerEvent: {}
+[4.838416] (-) TimerEvent: {}
+[4.939161] (-) TimerEvent: {}
+[5.039923] (-) TimerEvent: {}
+[5.140815] (-) TimerEvent: {}
+[5.241461] (-) TimerEvent: {}
+[5.342301] (-) TimerEvent: {}
+[5.442973] (-) TimerEvent: {}
+[5.543733] (-) TimerEvent: {}
+[5.644373] (-) TimerEvent: {}
+[5.745167] (-) TimerEvent: {}
+[5.845957] (-) TimerEvent: {}
+[5.946802] (-) TimerEvent: {}
+[6.047456] (-) TimerEvent: {}
+[6.148287] (-) TimerEvent: {}
+[6.210454] (example_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:7:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K:\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[6.212774] (example_topic_rclcpp) StderrLine: {'line': b'    7 |     Topicsubscribe01\x1b[34m\x1b[K(\x1b[m\x1b[Kstd\x1b[01;31m\x1b[K:\x1b[m\x1b[Kstring name) : Node(name) {\n'}
+[6.213046] (example_topic_rclcpp) StderrLine: {'line': b'      |                     \x1b[34m\x1b[K~\x1b[m\x1b[K   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.213242] (example_topic_rclcpp) StderrLine: {'line': b'      |                         \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[6.249151] (-) TimerEvent: {}
+[6.349811] (-) TimerEvent: {}
+[6.450580] (-) TimerEvent: {}
+[6.551370] (-) TimerEvent: {}
+[6.652119] (-) TimerEvent: {}
+[6.752905] (-) TimerEvent: {}
+[6.853840] (-) TimerEvent: {}
+[6.954599] (-) TimerEvent: {}
+[7.055339] (-) TimerEvent: {}
+[7.156083] (-) TimerEvent: {}
+[7.171876] (example_topic_rclcpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[7.172254] (example_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[7.172388] (example_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:64\x1b[m\x1b[K,\n'}
+[7.172504] (example_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[7.172612] (example_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:1\x1b[m\x1b[K:\n'}
+[7.172727] (example_topic_rclcpp) StderrLine: {'line': b'/usr/include/c++/11/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = Topicsubscribe01; _Args = {const char (&)[19]}; _Tp = Topicsubscribe01]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.172840] (example_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = Topicsubscribe01; _Args = {const char (&)[19]}; _Tp = Topicsubscribe01; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<Topicsubscribe01>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.172953] (example_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const char (&)[19]}; _Tp = Topicsubscribe01; _Alloc = std::allocator<Topicsubscribe01>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.174232] (example_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = Topicsubscribe01; _Alloc = std::allocator<Topicsubscribe01>; _Args = {const char (&)[19]}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.174492] (example_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<Topicsubscribe01>; _Args = {const char (&)[19]}; _Tp = Topicsubscribe01; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.174638] (example_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<Topicsubscribe01>; _Args = {const char (&)[19]}; _Tp = Topicsubscribe01]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.174778] (example_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = Topicsubscribe01; _Alloc = std::allocator<Topicsubscribe01>; _Args = {const char (&)[19]}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.174911] (example_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = Topicsubscribe01; _Args = {const char (&)[19]}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.175043] (example_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:17:51:\x1b[m\x1b[K   required from here\n'}
+[7.175441] (example_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KTopicsubscribe01::Topicsubscribe01(const char [19])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.175635] (example_topic_rclcpp) StderrLine: {'line': b'  162 |         { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[7.175774] (example_topic_rclcpp) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.175904] (example_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:4:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KTopicsubscribe01::Topicsubscribe01()\x1b[m\x1b[K\xe2\x80\x99 (deleted)\n'}
+[7.176090] (example_topic_rclcpp) StderrLine: {'line': b'    4 | class \x1b[01;36m\x1b[KTopicsubscribe01\x1b[m\x1b[K : public rclcpp::Node\n'}
+[7.176260] (example_topic_rclcpp) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.180379] (example_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:4:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[7.180705] (example_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:4:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KTopicsubscribe01::Topicsubscribe01(const Topicsubscribe01&)\x1b[m\x1b[K\xe2\x80\x99 (deleted)\n'}
+[7.180942] (example_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:4:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst char [19]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst Topicsubscribe01&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.181222] (example_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:4:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KTopicsubscribe01::Topicsubscribe01(Topicsubscribe01&&)\x1b[m\x1b[K\xe2\x80\x99 (deleted)\n'}
+[7.181600] (example_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:4:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst char [19]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[KTopicsubscribe01&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.256421] (-) TimerEvent: {}
+[7.301227] (example_topic_rclcpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/topic_subscribe_01.dir/build.make:76: CMakeFiles/topic_subscribe_01.dir/src/topic_subscribe_01.cpp.o] Error 1\n'}
+[7.301865] (example_topic_rclcpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/topic_subscribe_01.dir/all] Error 2\n'}
+[7.302483] (example_topic_rclcpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.308769] (example_topic_rclcpp) CommandEnded: {'returncode': 2}
+[7.356645] (-) TimerEvent: {}
+[7.396966] (example_topic_rclcpp) JobEnded: {'identifier': 'example_topic_rclcpp', 'rc': 2}
+[7.409091] (-) EventReactorShutdown: {}

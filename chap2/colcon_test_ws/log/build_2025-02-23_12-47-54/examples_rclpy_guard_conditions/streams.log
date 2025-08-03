@@ -1,0 +1,37 @@
+[1.191s] Invoking command in '/d2lros2/chap2/colcon_test_ws/src/examples/rclpy/guard_conditions': PYTHONPATH=/d2lros2/chap2/colcon_test_ws/build/examples_rclpy_guard_conditions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/d2lros2/chap2/colcon_test_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/examples_rclpy_guard_conditions build --build-base /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_guard_conditions/build install --record /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_guard_conditions/install.log --single-version-externally-managed install_data
+[1.509s] running egg_info
+[1.510s] creating ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info
+[1.510s] writing ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/PKG-INFO
+[1.510s] writing dependency_links to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/dependency_links.txt
+[1.510s] writing entry points to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/entry_points.txt
+[1.510s] writing requirements to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/requires.txt
+[1.511s] writing top-level names to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/top_level.txt
+[1.511s] writing manifest file '../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[1.511s] reading manifest file '../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[1.511s] writing manifest file '../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[1.511s] running build
+[1.511s] running build_py
+[1.512s] creating /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_guard_conditions/build
+[1.512s] creating /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_guard_conditions/build/lib
+[1.512s] creating /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions
+[1.512s] copying examples_rclpy_guard_conditions/__init__.py -> /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions
+[1.513s] copying examples_rclpy_guard_conditions/trigger_guard_condition.py -> /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions
+[1.513s] running install
+[1.513s] running install_lib
+[1.513s] creating /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions
+[1.513s] copying /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions/__init__.py -> /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions
+[1.513s] copying /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions/trigger_guard_condition.py -> /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions
+[1.514s] byte-compiling /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions/__init__.py to __init__.cpython-310.pyc
+[1.514s] byte-compiling /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions/trigger_guard_condition.py to trigger_guard_condition.cpython-310.pyc
+[1.514s] running install_data
+[1.514s] creating /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_guard_conditions/share/ament_index
+[1.515s] creating /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_guard_conditions/share/ament_index/resource_index
+[1.515s] creating /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_guard_conditions/share/ament_index/resource_index/packages
+[1.515s] copying resource/examples_rclpy_guard_conditions -> /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_guard_conditions/share/ament_index/resource_index/packages
+[1.516s] copying package.xml -> /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_guard_conditions/share/examples_rclpy_guard_conditions
+[1.516s] running install_egg_info
+[1.516s] Copying ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info to /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions-0.15.3-py3.10.egg-info
+[1.516s] running install_scripts
+[1.516s] Installing trigger_guard_condition script to /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_guard_conditions/lib/examples_rclpy_guard_conditions
+[1.516s] writing list of installed files to '/d2lros2/chap2/colcon_test_ws/build/examples_rclpy_guard_conditions/install.log'
+[1.517s] Invoked command in '/d2lros2/chap2/colcon_test_ws/src/examples/rclpy/guard_conditions' returned '0': PYTHONPATH=/d2lros2/chap2/colcon_test_ws/build/examples_rclpy_guard_conditions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/d2lros2/chap2/colcon_test_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/examples_rclpy_guard_conditions build --build-base /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_guard_conditions/build install --record /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_guard_conditions/install.log --single-version-externally-managed install_data

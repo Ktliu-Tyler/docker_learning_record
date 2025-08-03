@@ -1,0 +1,24 @@
+[0.311s] Invoking command in '/d2lros2/chap2/chapt2_ws/src/example_py': PYTHONPATH=/d2lros2/chap2/chapt2_ws/build/example_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/d2lros2/chap2/chapt2_ws/install/example_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/example_py build --build-base /d2lros2/chap2/chapt2_ws/build/example_py/build install --record /d2lros2/chap2/chapt2_ws/build/example_py/install.log --single-version-externally-managed install_data
+[0.427s] running egg_info
+[0.428s] writing ../../build/example_py/example_py.egg-info/PKG-INFO
+[0.428s] writing dependency_links to ../../build/example_py/example_py.egg-info/dependency_links.txt
+[0.428s] writing entry points to ../../build/example_py/example_py.egg-info/entry_points.txt
+[0.428s] writing requirements to ../../build/example_py/example_py.egg-info/requires.txt
+[0.428s] writing top-level names to ../../build/example_py/example_py.egg-info/top_level.txt
+[0.429s] reading manifest file '../../build/example_py/example_py.egg-info/SOURCES.txt'
+[0.429s] writing manifest file '../../build/example_py/example_py.egg-info/SOURCES.txt'
+[0.430s] running build
+[0.430s] running build_py
+[0.430s] copying example_py/node_02.py -> /d2lros2/chap2/chapt2_ws/build/example_py/build/lib/example_py
+[0.430s] running install
+[0.430s] running install_lib
+[0.430s] copying /d2lros2/chap2/chapt2_ws/build/example_py/build/lib/example_py/node_02.py -> /d2lros2/chap2/chapt2_ws/install/example_py/lib/python3.10/site-packages/example_py
+[0.430s] byte-compiling /d2lros2/chap2/chapt2_ws/install/example_py/lib/python3.10/site-packages/example_py/node_02.py to node_02.cpython-310.pyc
+[0.431s] running install_data
+[0.431s] running install_egg_info
+[0.432s] removing '/d2lros2/chap2/chapt2_ws/install/example_py/lib/python3.10/site-packages/example_py-0.0.0-py3.10.egg-info' (and everything under it)
+[0.432s] Copying ../../build/example_py/example_py.egg-info to /d2lros2/chap2/chapt2_ws/install/example_py/lib/python3.10/site-packages/example_py-0.0.0-py3.10.egg-info
+[0.432s] running install_scripts
+[0.444s] Installing node_02 script to /d2lros2/chap2/chapt2_ws/install/example_py/lib/example_py
+[0.444s] writing list of installed files to '/d2lros2/chap2/chapt2_ws/build/example_py/install.log'
+[0.457s] Invoked command in '/d2lros2/chap2/chapt2_ws/src/example_py' returned '0': PYTHONPATH=/d2lros2/chap2/chapt2_ws/build/example_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/d2lros2/chap2/chapt2_ws/install/example_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/example_py build --build-base /d2lros2/chap2/chapt2_ws/build/example_py/build install --record /d2lros2/chap2/chapt2_ws/build/example_py/install.log --single-version-externally-managed install_data

@@ -1,0 +1,11 @@
+[0.057s] Invoking command in '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_minimal_action_server -- -j16 -l16
+[1.669s] [ 25%] [32mBuilding CXX object CMakeFiles/action_server_member_functions.dir/member_functions.cpp.o[0m
+[1.669s] [ 50%] [32mBuilding CXX object CMakeFiles/action_server_not_composable.dir/not_composable.cpp.o[0m
+[11.386s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[11.387s] compilation terminated.
+[11.389s] gmake[2]: *** [CMakeFiles/action_server_not_composable.dir/build.make:76: CMakeFiles/action_server_not_composable.dir/not_composable.cpp.o] Error 1
+[11.401s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/action_server_not_composable.dir/all] Error 2
+[11.401s] gmake[1]: *** Waiting for unfinished jobs....
+[29.735s] [ 75%] [32m[1mLinking CXX executable action_server_member_functions[0m
+[29.970s] [ 75%] Built target action_server_member_functions
+[29.971s] gmake: *** [Makefile:146: all] Error 2

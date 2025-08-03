@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target node_01[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/node_01.dir/src/node_01.cpp.o[0m
+[100%] [32m[1mLinking CXX executable node_01[0m
+[100%] Built target node_01
+-- Install configuration: ""
+-- Installing: /d2lros2/chap2/chapt2_ws/install/example_cpp/share/ament_index/resource_index/package_run_dependencies/example_cpp
+-- Installing: /d2lros2/chap2/chapt2_ws/install/example_cpp/share/ament_index/resource_index/parent_prefix_path/example_cpp
+-- Installing: /d2lros2/chap2/chapt2_ws/install/example_cpp/share/example_cpp/environment/ament_prefix_path.sh
+-- Installing: /d2lros2/chap2/chapt2_ws/install/example_cpp/share/example_cpp/environment/ament_prefix_path.dsv
+-- Installing: /d2lros2/chap2/chapt2_ws/install/example_cpp/share/example_cpp/environment/path.sh
+-- Installing: /d2lros2/chap2/chapt2_ws/install/example_cpp/share/example_cpp/environment/path.dsv
+-- Installing: /d2lros2/chap2/chapt2_ws/install/example_cpp/share/example_cpp/local_setup.bash
+-- Installing: /d2lros2/chap2/chapt2_ws/install/example_cpp/share/example_cpp/local_setup.sh
+-- Installing: /d2lros2/chap2/chapt2_ws/install/example_cpp/share/example_cpp/local_setup.zsh
+-- Installing: /d2lros2/chap2/chapt2_ws/install/example_cpp/share/example_cpp/local_setup.dsv
+-- Installing: /d2lros2/chap2/chapt2_ws/install/example_cpp/share/example_cpp/package.dsv
+-- Installing: /d2lros2/chap2/chapt2_ws/install/example_cpp/share/ament_index/resource_index/packages/example_cpp
+-- Installing: /d2lros2/chap2/chapt2_ws/install/example_cpp/share/example_cpp/cmake/example_cppConfig.cmake
+-- Installing: /d2lros2/chap2/chapt2_ws/install/example_cpp/share/example_cpp/cmake/example_cppConfig-version.cmake
+-- Installing: /d2lros2/chap2/chapt2_ws/install/example_cpp/share/example_cpp/package.xml
+-- Installing: /d2lros2/chap2/chapt2_ws/install/example_cpp/lib/example_cpp/node_01
+-- Set runtime path of "/d2lros2/chap2/chapt2_ws/install/example_cpp/lib/example_cpp/node_01" to ""

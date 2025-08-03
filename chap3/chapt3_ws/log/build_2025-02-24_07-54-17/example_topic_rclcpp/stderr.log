@@ -1,0 +1,38 @@
+[01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_publisher_01.cpp:3:34:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[Krclcpp[m[K’
+    3 | class TopicPublisher01 : publish [01;31m[Krclcpp[m[K:Node {
+      |                                  [01;31m[K^~~~~~[m[K
+[01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_publisher_01.cpp:3:34:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[Krclcpp[m[K’
+[01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_publisher_01.cpp:3:40:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+    3 | class TopicPublisher01 : publish rclcpp[01;31m[K:[m[KNode {
+      |                                        [01;31m[K^[m[K
+      |                                        [32m[K::[m[K
+[01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_publisher_01.cpp:4:5:[m[K [01;35m[Kwarning: [m[KISO C++ does not allow GNU designated initializers [[01;35m[K-Wpedantic[m[K]
+    4 |     [01;35m[Kpublish[m[K:
+      |     [01;35m[K^~~~~~~[m[K
+[01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_publisher_01.cpp:5:38:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass TopicPublisher01[m[K’
+    5 |     TopicPublisher01(std::string name[01;31m[K)[m[K : Node(name) {
+      |                                      [01;31m[K^[m[K
+[01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_publisher_01.cpp:3:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass TopicPublisher01[m[K’
+    3 | class [01;36m[KTopicPublisher01[m[K : publish rclcpp:Node {
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_publisher_01.cpp:5:21:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K([m[K’ token
+    5 |     TopicPublisher01[01;31m[K([m[Kstd::string name) : Node(name) {
+      |                     [01;31m[K^[m[K
+[01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_publisher_01.cpp:5:34:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kname[m[K’
+    5 |     TopicPublisher01(std::string [01;31m[Kname[m[K) : Node(name) {
+      |                                  [01;31m[K^~~~[m[K
+[01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_publisher_01.cpp:5:40:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[K:[m[K’ token
+    5 |     TopicPublisher01(std::string name) [01;31m[K:[m[K Node(name) {
+      |                                        [01;31m[K^[m[K
+[01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_publisher_01.cpp:3:46:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+    3 | class TopicPublisher01 : publish rclcpp:Node [01;36m[K{[m[K
+      |                                              [01;36m[K^[m[K
+[01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_publisher_01.cpp:8:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+    8 |     [01;31m[Kprivate[m[K:
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_publisher_01.cpp:10:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   10 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/topic_publisher_01.dir/build.make:76: CMakeFiles/topic_publisher_01.dir/src/topic_publisher_01.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/topic_publisher_01.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

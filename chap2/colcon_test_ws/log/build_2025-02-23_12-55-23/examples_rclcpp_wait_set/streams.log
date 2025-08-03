@@ -1,0 +1,65 @@
+[0.005s] Invoking command in '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_wait_set -- -j16 -l16
+[0.033s] [35m[1mConsolidate compiler generated dependencies of target wait_set_listener[0m
+[0.035s] [35m[1mConsolidate compiler generated dependencies of target wait_set_random_order[0m
+[0.037s] [35m[1mConsolidate compiler generated dependencies of target thread_safe_wait_set[0m
+[0.043s] [  4%] [32mBuilding CXX object CMakeFiles/wait_set_topics_with_different_rates.dir/src/wait_set_topics_with_different_rates.cpp.o[0m
+[0.046s] [  8%] [32mBuilding CXX object CMakeFiles/executor_random_order.dir/src/executor_random_order.cpp.o[0m
+[0.047s] [ 16%] Built target wait_set
+[0.047s] [ 25%] Built target wait_set_talker
+[0.049s] [ 33%] Built target talker
+[0.051s] [ 41%] Built target listener
+[0.052s] [ 58%] Built target wait_set_topics_and_timer
+[0.052s] [ 58%] Built target wait_set_listener
+[0.052s] [ 66%] Built target wait_set_random_order
+[0.055s] [ 75%] Built target static_wait_set
+[0.055s] [ 83%] Built target thread_safe_wait_set
+[0.060s] [35m[1mConsolidate compiler generated dependencies of target wait_set_composed[0m
+[0.070s] [ 91%] Built target wait_set_composed
+[5.129s] [ 95%] [32m[1mLinking CXX executable executor_random_order[0m
+[5.343s] [ 95%] Built target executor_random_order
+[5.358s] [100%] [32m[1mLinking CXX executable wait_set_topics_with_different_rates[0m
+[5.568s] [100%] Built target wait_set_topics_with_different_rates
+[5.574s] Invoked command in '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_wait_set -- -j16 -l16
+[5.604s] Invoking command in '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_wait_set
+[5.608s] -- Install configuration: ""
+[5.608s] -- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_talker
+[5.609s] -- Set runtime path of "/d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_talker" to ""
+[5.609s] -- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_listener
+[5.609s] -- Set runtime path of "/d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_listener" to ""
+[5.610s] -- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_wait_set/lib/libtalker.so
+[5.612s] -- Set runtime path of "/d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_wait_set/lib/libtalker.so" to ""
+[5.612s] -- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_wait_set/lib/liblistener.so
+[5.617s] -- Set runtime path of "/d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_wait_set/lib/liblistener.so" to ""
+[5.618s] -- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set
+[5.622s] -- Set runtime path of "/d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set" to ""
+[5.622s] -- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/static_wait_set
+[5.625s] -- Set runtime path of "/d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/static_wait_set" to ""
+[5.625s] -- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/thread_safe_wait_set
+[5.628s] -- Set runtime path of "/d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/thread_safe_wait_set" to ""
+[5.628s] -- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_and_timer
+[5.632s] -- Set runtime path of "/d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_and_timer" to ""
+[5.632s] -- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_random_order
+[5.634s] -- Set runtime path of "/d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_random_order" to ""
+[5.634s] -- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/executor_random_order
+[5.636s] -- Set runtime path of "/d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/executor_random_order" to ""
+[5.636s] -- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_with_different_rates
+[5.639s] -- Set runtime path of "/d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_with_different_rates" to ""
+[5.639s] -- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_composed
+[5.639s] -- Set runtime path of "/d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_composed" to ""
+[5.639s] -- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_wait_set
+[5.640s] -- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_wait_set
+[5.640s] -- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.sh
+[5.640s] -- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.dsv
+[5.641s] -- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.sh
+[5.641s] -- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.dsv
+[5.641s] -- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.bash
+[5.641s] -- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.sh
+[5.641s] -- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.zsh
+[5.642s] -- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.dsv
+[5.642s] -- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.dsv
+[5.642s] -- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/packages/examples_rclcpp_wait_set
+[5.643s] -- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_wait_set
+[5.643s] -- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig.cmake
+[5.643s] -- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig-version.cmake
+[5.643s] -- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.xml
+[5.645s] Invoked command in '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_wait_set

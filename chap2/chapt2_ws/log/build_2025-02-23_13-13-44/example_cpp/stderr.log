@@ -1,0 +1,27 @@
+[01m[K/d2lros2/chap2/chapt2_ws/src/example_cpp/src/node_01.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/d2lros2/chap2/chapt2_ws/src/example_cpp/src/node_01.cpp:6:46:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+    6 |     auto node = std::make_shared>rclcpp::Node[01;31m[K>[m[K("node_01");
+      |                                              [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/d2lros2/chap2/chapt2_ws/src/example_cpp/src/node_01.cpp:1[m[K:
+[01m[K/d2lros2/chap2/chapt2_ws/src/example_cpp/src/node_01.cpp:7:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    7 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "node_01已經啟動");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/d2lros2/chap2/chapt2_ws/src/example_cpp/src/node_01.cpp:7:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    7 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "node_01已經啟動");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/d2lros2/chap2/chapt2_ws/src/example_cpp/src/node_01.cpp:7:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    7 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "node_01已經啟動");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/node_01.dir/build.make:76: CMakeFiles/node_01.dir/src/node_01.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/node_01.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

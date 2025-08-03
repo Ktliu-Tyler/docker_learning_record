@@ -1,0 +1,11 @@
+[0.057s] Invoking command in '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_minimal_action_client -- -j16 -l16
+[1.632s] [35m[1mConsolidate compiler generated dependencies of target action_client_not_composable[0m
+[1.633s] [35m[1mConsolidate compiler generated dependencies of target action_client_not_composable_with_feedback[0m
+[1.633s] [ 12%] [32mBuilding CXX object CMakeFiles/action_client_member_functions.dir/member_functions.cpp.o[0m
+[1.633s] [ 25%] [32mBuilding CXX object CMakeFiles/action_client_not_composable_with_cancel.dir/not_composable_with_cancel.cpp.o[0m
+[1.633s] [ 62%] Built target action_client_not_composable_with_feedback
+[1.633s] [ 75%] Built target action_client_not_composable
+[30.457s] [ 87%] [32m[1mLinking CXX executable action_client_not_composable_with_cancel[0m
+[30.623s] [ 87%] Built target action_client_not_composable_with_cancel
+[31.638s] [100%] [32m[1mLinking CXX executable action_client_member_functions[0m
+[31.773s] [100%] Built target action_client_member_functions

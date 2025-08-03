@@ -1,0 +1,13 @@
+[0.012s] Invoking command in '/d2lros2/chap3/chapt3_ws/src/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /d2lros2/chap3/chapt3_ws/src/build/example_topic_rclcpp -- -j16 -l16
+[0.071s] [35m[1mConsolidate compiler generated dependencies of target topic_subscribe_01[0m
+[0.071s] [35m[1mConsolidate compiler generated dependencies of target topic_publisher_01[0m
+[0.083s] [ 25%] [32mBuilding CXX object CMakeFiles/topic_subscribe_01.dir/src/topic_subscribe_01.cpp.o[0m
+[0.083s] [ 75%] Built target topic_publisher_01
+[0.301s] [01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ksrd_msgs/msg/string.hpp: No such file or directory
+[0.301s]     2 | #include [01;31m[K"srd_msgs/msg/string.hpp"[m[K
+[0.301s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.301s] compilation terminated.
+[0.302s] gmake[2]: *** [CMakeFiles/topic_subscribe_01.dir/build.make:76: CMakeFiles/topic_subscribe_01.dir/src/topic_subscribe_01.cpp.o] Error 1
+[0.302s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/topic_subscribe_01.dir/all] Error 2
+[0.302s] gmake: *** [Makefile:146: all] Error 2
+[0.304s] Invoked command in '/d2lros2/chap3/chapt3_ws/src/build/example_topic_rclcpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /d2lros2/chap3/chapt3_ws/src/build/example_topic_rclcpp -- -j16 -l16

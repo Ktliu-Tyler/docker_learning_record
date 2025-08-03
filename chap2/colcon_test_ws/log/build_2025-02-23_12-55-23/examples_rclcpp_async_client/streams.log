@@ -1,0 +1,25 @@
+[0.013s] Invoking command in '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_async_client -- -j16 -l16
+[0.073s] [ 50%] [32mBuilding CXX object CMakeFiles/client_main.dir/main.cpp.o[0m
+[2.260s] [100%] [32m[1mLinking CXX executable client_main[0m
+[2.347s] [100%] Built target client_main
+[2.352s] Invoked command in '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_async_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_async_client -- -j16 -l16
+[2.368s] Invoking command in '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_async_client
+[2.372s] -- Install configuration: ""
+[2.372s] -- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_async_client/lib/examples_rclcpp_async_client/client_main
+[2.373s] -- Set runtime path of "/d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_async_client/lib/examples_rclcpp_async_client/client_main" to ""
+[2.374s] -- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_async_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_async_client
+[2.374s] -- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_async_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_async_client
+[2.375s] -- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/ament_prefix_path.sh
+[2.375s] -- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/ament_prefix_path.dsv
+[2.375s] -- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/path.sh
+[2.375s] -- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/path.dsv
+[2.376s] -- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.bash
+[2.376s] -- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.sh
+[2.376s] -- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.zsh
+[2.376s] -- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.dsv
+[2.377s] -- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/package.dsv
+[2.377s] -- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_async_client/share/ament_index/resource_index/packages/examples_rclcpp_async_client
+[2.377s] -- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/cmake/examples_rclcpp_async_clientConfig.cmake
+[2.377s] -- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/cmake/examples_rclcpp_async_clientConfig-version.cmake
+[2.378s] -- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/package.xml
+[2.379s] Invoked command in '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_async_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_async_client

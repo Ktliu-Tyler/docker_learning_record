@@ -1,0 +1,4 @@
+[0.057s] Invoking command in '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_minimal_client -- -j16 -l16
+[1.687s] [ 50%] [32mBuilding CXX object CMakeFiles/client_main.dir/main.cpp.o[0m
+[29.643s] [100%] [32m[1mLinking CXX executable client_main[0m
+[29.875s] [100%] Built target client_main

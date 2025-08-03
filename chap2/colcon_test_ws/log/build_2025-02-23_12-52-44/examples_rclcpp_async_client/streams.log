@@ -1,0 +1,8 @@
+[0.063s] Invoking command in '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_async_client -- -j16 -l16
+[1.615s] [ 50%] [32mBuilding CXX object CMakeFiles/client_main.dir/main.cpp.o[0m
+[14.460s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[14.463s] compilation terminated.
+[14.466s] gmake[2]: *** [CMakeFiles/client_main.dir/build.make:76: CMakeFiles/client_main.dir/main.cpp.o] Error 1
+[14.476s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/client_main.dir/all] Error 2
+[14.484s] gmake: *** [Makefile:146: all] Error 2
+[15.738s] Invoked command in '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_async_client' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_async_client -- -j16 -l16

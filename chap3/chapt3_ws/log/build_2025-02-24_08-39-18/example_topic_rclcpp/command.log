@@ -1,0 +1,4 @@
+Invoking command in '/d2lros2/chap3/chapt3_ws/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /d2lros2/chap3/chapt3_ws/build/example_topic_rclcpp -- -j16 -l16
+Invoked command in '/d2lros2/chap3/chapt3_ws/build/example_topic_rclcpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /d2lros2/chap3/chapt3_ws/build/example_topic_rclcpp -- -j16 -l16
+Invoking command in '/d2lros2/chap3/chapt3_ws/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /d2lros2/chap3/chapt3_ws/build/example_topic_rclcpp
+Invoked command in '/d2lros2/chap3/chapt3_ws/build/example_topic_rclcpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /d2lros2/chap3/chapt3_ws/build/example_topic_rclcpp

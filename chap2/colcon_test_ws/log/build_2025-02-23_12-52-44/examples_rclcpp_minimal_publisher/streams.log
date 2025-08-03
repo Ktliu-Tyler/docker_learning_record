@@ -1,0 +1,22 @@
+[0.058s] Invoking command in '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_minimal_publisher -- -j16 -l16
+[1.753s] [35m[1mConsolidate compiler generated dependencies of target publisher_lambda[0m
+[1.753s] [  8%] [32mBuilding CXX object CMakeFiles/publisher_member_function.dir/member_function.cpp.o[0m
+[1.753s] [ 16%] [32mBuilding CXX object CMakeFiles/publisher_wait_for_all_acked.dir/member_function_with_wait_for_all_acked.cpp.o[0m
+[1.753s] [ 25%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[1.753s] [ 33%] [32mBuilding CXX object CMakeFiles/publisher_not_composable.dir/not_composable.cpp.o[0m
+[1.754s] [ 41%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[1.754s] [ 58%] Built target publisher_lambda
+[16.864s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[16.865s] compilation terminated.
+[16.872s] gmake[2]: *** [CMakeFiles/publisher_member_function_with_unique_network_flow_endpoints.dir/build.make:76: CMakeFiles/publisher_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o] Error 1
+[16.884s] gmake[1]: *** [CMakeFiles/Makefile2:225: CMakeFiles/publisher_member_function_with_unique_network_flow_endpoints.dir/all] Error 2
+[16.885s] gmake[1]: *** Waiting for unfinished jobs....
+[28.000s] [ 66%] [32m[1mLinking CXX executable publisher_not_composable[0m
+[28.450s] [ 66%] Built target publisher_not_composable
+[29.207s] [ 75%] [32m[1mLinking CXX executable publisher_member_function[0m
+[29.447s] [ 75%] Built target publisher_member_function
+[29.861s] [ 83%] [32m[1mLinking CXX executable publisher_member_function_with_type_adapter[0m
+[30.062s] [ 83%] Built target publisher_member_function_with_type_adapter
+[30.845s] [ 91%] [32m[1mLinking CXX executable publisher_wait_for_all_acked[0m
+[31.001s] [ 91%] Built target publisher_wait_for_all_acked
+[31.010s] gmake: *** [Makefile:146: all] Error 2

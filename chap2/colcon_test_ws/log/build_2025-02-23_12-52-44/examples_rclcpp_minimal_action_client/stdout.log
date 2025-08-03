@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target action_client_not_composable[0m
+[35m[1mConsolidate compiler generated dependencies of target action_client_not_composable_with_feedback[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/action_client_member_functions.dir/member_functions.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/action_client_not_composable_with_cancel.dir/not_composable_with_cancel.cpp.o[0m
+[ 62%] Built target action_client_not_composable_with_feedback
+[ 75%] Built target action_client_not_composable
+[ 87%] [32m[1mLinking CXX executable action_client_not_composable_with_cancel[0m
+[ 87%] Built target action_client_not_composable_with_cancel
+[100%] [32m[1mLinking CXX executable action_client_member_functions[0m
+[100%] Built target action_client_member_functions

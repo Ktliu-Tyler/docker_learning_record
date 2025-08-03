@@ -1,0 +1,25 @@
+[3.969s] Invoking command in '/d2lros2/chap2/colcon_test_ws/src/examples/rclpy/actions/minimal_action_server': PYTHONPATH=/d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_action_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_action_server/build install --record /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed install_data
+[4.529s] running egg_info
+[4.530s] writing ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/PKG-INFO
+[4.533s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/dependency_links.txt
+[4.537s] writing entry points to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/entry_points.txt
+[4.537s] writing requirements to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/requires.txt
+[4.537s] writing top-level names to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/top_level.txt
+[4.544s] reading manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[4.547s] writing manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[4.548s] running build
+[4.548s] running build_py
+[4.570s] running install
+[4.571s] running install_lib
+[4.575s] running install_data
+[4.577s] running install_egg_info
+[4.581s] removing '/d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server-0.15.3-py3.10.egg-info' (and everything under it)
+[4.582s] Copying ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info to /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server-0.15.3-py3.10.egg-info
+[4.599s] running install_scripts
+[4.653s] Installing server script to /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[4.657s] Installing server_defer script to /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[4.659s] Installing server_not_composable script to /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[4.661s] Installing server_queue_goals script to /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[4.661s] Installing server_single_goal script to /d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[4.663s] writing list of installed files to '/d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_action_server/install.log'
+[10.654s] Invoked command in '/d2lros2/chap2/colcon_test_ws/src/examples/rclpy/actions/minimal_action_server' returned '0': PYTHONPATH=/d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_action_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/d2lros2/chap2/colcon_test_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_action_server/build install --record /d2lros2/chap2/colcon_test_ws/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed install_data

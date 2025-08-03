@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target service_main[0m
+[100%] Built target service_main
+-- Install configuration: ""
+-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_service/lib/examples_rclcpp_minimal_service/service_main
+-- Set runtime path of "/d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_service/lib/examples_rclcpp_minimal_service/service_main" to ""
+-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_service
+-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_service
+-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.sh
+-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.dsv
+-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.sh
+-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.dsv
+-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.bash
+-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.sh
+-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.zsh
+-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.dsv
+-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.dsv
+-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/packages/examples_rclcpp_minimal_service
+-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig.cmake
+-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig-version.cmake
+-- Installing: /d2lros2/chap2/colcon_test_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.xml

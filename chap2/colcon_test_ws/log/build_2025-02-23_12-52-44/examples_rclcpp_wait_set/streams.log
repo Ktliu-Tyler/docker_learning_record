@@ -1,0 +1,37 @@
+[0.068s] Invoking command in '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_wait_set -- -j16 -l16
+[1.859s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[1.859s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[1.859s] [35m[1mConsolidate compiler generated dependencies of target wait_set[0m
+[1.860s] [35m[1mConsolidate compiler generated dependencies of target wait_set_talker[0m
+[1.860s] [35m[1mConsolidate compiler generated dependencies of target static_wait_set[0m
+[1.860s] [35m[1mConsolidate compiler generated dependencies of target wait_set_topics_and_timer[0m
+[1.860s] [  4%] [32mBuilding CXX object CMakeFiles/wait_set_listener.dir/rclcpp_components/node_main_wait_set_listener.cpp.o[0m
+[1.860s] [  8%] [32mBuilding CXX object CMakeFiles/wait_set_random_order.dir/src/wait_set_random_order.cpp.o[0m
+[1.860s] [ 12%] [32mBuilding CXX object CMakeFiles/executor_random_order.dir/src/executor_random_order.cpp.o[0m
+[1.860s] [ 16%] [32mBuilding CXX object CMakeFiles/thread_safe_wait_set.dir/src/thread_safe_wait_set.cpp.o[0m
+[1.860s] [ 25%] Built target wait_set
+[1.860s] [ 33%] Built target talker
+[1.860s] [ 41%] Built target wait_set_talker
+[1.860s] [ 50%] Built target listener
+[1.860s] [ 58%] Built target static_wait_set
+[1.860s] [ 62%] [32mBuilding CXX object CMakeFiles/wait_set_topics_with_different_rates.dir/src/wait_set_topics_with_different_rates.cpp.o[0m
+[1.860s] [ 70%] Built target wait_set_topics_and_timer
+[1.860s] [ 75%] [32mBuilding CXX object CMakeFiles/wait_set_composed.dir/src/wait_set_composed.cpp.o[0m
+[7.833s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[7.858s] compilation terminated.
+[7.887s] gmake[2]: *** [CMakeFiles/wait_set_topics_with_different_rates.dir/build.make:76: CMakeFiles/wait_set_topics_with_different_rates.dir/src/wait_set_topics_with_different_rates.cpp.o] Error 1
+[7.887s] gmake[1]: *** [CMakeFiles/Makefile2:419: CMakeFiles/wait_set_topics_with_different_rates.dir/all] Error 2
+[7.887s] gmake[1]: *** Waiting for unfinished jobs....
+[10.580s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[10.581s] compilation terminated.
+[10.587s] gmake[2]: *** [CMakeFiles/executor_random_order.dir/build.make:76: CMakeFiles/executor_random_order.dir/src/executor_random_order.cpp.o] Error 1
+[10.592s] gmake[1]: *** [CMakeFiles/Makefile2:393: CMakeFiles/executor_random_order.dir/all] Error 2
+[28.019s] [ 79%] [32m[1mLinking CXX executable wait_set_composed[0m
+[28.387s] [ 79%] Built target wait_set_composed
+[28.966s] [ 83%] [32m[1mLinking CXX executable wait_set_listener[0m
+[29.127s] [ 83%] Built target wait_set_listener
+[36.493s] [ 87%] [32m[1mLinking CXX executable thread_safe_wait_set[0m
+[36.494s] [ 91%] [32m[1mLinking CXX executable wait_set_random_order[0m
+[36.835s] [ 91%] Built target wait_set_random_order
+[36.861s] [ 91%] Built target thread_safe_wait_set
+[36.867s] gmake: *** [Makefile:146: all] Error 2

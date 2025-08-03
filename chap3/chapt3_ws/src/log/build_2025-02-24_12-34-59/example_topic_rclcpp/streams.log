@@ -1,0 +1,28 @@
+[0.016s] Invoking command in '/d2lros2/chap3/chapt3_ws/src/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /d2lros2/chap3/chapt3_ws/src/build/example_topic_rclcpp -- -j16 -l16
+[0.049s] [ 50%] [32mBuilding CXX object CMakeFiles/topic_subscribe_01.dir/src/topic_subscribe_01.cpp.o[0m
+[0.049s] [ 75%] Built target topic_publisher_01
+[5.058s] [100%] [32m[1mLinking CXX executable topic_subscribe_01[0m
+[5.292s] [100%] Built target topic_subscribe_01
+[5.300s] Invoked command in '/d2lros2/chap3/chapt3_ws/src/build/example_topic_rclcpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /d2lros2/chap3/chapt3_ws/src/build/example_topic_rclcpp -- -j16 -l16
+[5.324s] Invoking command in '/d2lros2/chap3/chapt3_ws/src/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /d2lros2/chap3/chapt3_ws/src/build/example_topic_rclcpp
+[5.329s] -- Install configuration: ""
+[5.329s] -- Installing: /d2lros2/chap3/chapt3_ws/src/install/example_topic_rclcpp/share/ament_index/resource_index/package_run_dependencies/example_topic_rclcpp
+[5.330s] -- Installing: /d2lros2/chap3/chapt3_ws/src/install/example_topic_rclcpp/share/ament_index/resource_index/parent_prefix_path/example_topic_rclcpp
+[5.330s] -- Installing: /d2lros2/chap3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/ament_prefix_path.sh
+[5.330s] -- Installing: /d2lros2/chap3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/ament_prefix_path.dsv
+[5.330s] -- Installing: /d2lros2/chap3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/path.sh
+[5.331s] -- Installing: /d2lros2/chap3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/path.dsv
+[5.331s] -- Installing: /d2lros2/chap3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.bash
+[5.331s] -- Installing: /d2lros2/chap3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.sh
+[5.331s] -- Installing: /d2lros2/chap3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.zsh
+[5.331s] -- Installing: /d2lros2/chap3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.dsv
+[5.332s] -- Installing: /d2lros2/chap3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/package.dsv
+[5.332s] -- Installing: /d2lros2/chap3/chapt3_ws/src/install/example_topic_rclcpp/share/ament_index/resource_index/packages/example_topic_rclcpp
+[5.332s] -- Installing: /d2lros2/chap3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/cmake/example_topic_rclcppConfig.cmake
+[5.332s] -- Installing: /d2lros2/chap3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/cmake/example_topic_rclcppConfig-version.cmake
+[5.333s] -- Installing: /d2lros2/chap3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/package.xml
+[5.333s] -- Installing: /d2lros2/chap3/chapt3_ws/src/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_publisher_01
+[5.335s] -- Set runtime path of "/d2lros2/chap3/chapt3_ws/src/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_publisher_01" to ""
+[5.335s] -- Installing: /d2lros2/chap3/chapt3_ws/src/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_subscribe_01
+[5.337s] -- Set runtime path of "/d2lros2/chap3/chapt3_ws/src/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_subscribe_01" to ""
+[5.338s] Invoked command in '/d2lros2/chap3/chapt3_ws/src/build/example_topic_rclcpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /d2lros2/chap3/chapt3_ws/src/build/example_topic_rclcpp

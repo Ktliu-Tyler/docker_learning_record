@@ -1,0 +1,11 @@
+[0.011s] Invoking command in '/d2lros2/chap3/chapt3_ws/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/d2lros2/chap2/chapt2_ws/install/example_py:/opt/ros/humble /usr/bin/cmake --build /d2lros2/chap3/chapt3_ws/build/example_topic_rclcpp -- -j16 -l16
+[0.033s] [35m[1mConsolidate compiler generated dependencies of target topic_publisher_01[0m
+[0.047s] [ 50%] [32mBuilding CXX object CMakeFiles/topic_publisher_01.dir/src/topic_publisher_01.cpp.o[0m
+[1.418s] [01m[K/d2lros2/chap3/chapt3_ws/src/example_topic_rclcpp/src/topic_publisher_01.cpp:10:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[1.418s]    10 | }
+[1.418s]       |  [01;31m[K^[m[K
+[1.418s]       |  [32m[K;[m[K
+[1.701s] gmake[2]: *** [CMakeFiles/topic_publisher_01.dir/build.make:76: CMakeFiles/topic_publisher_01.dir/src/topic_publisher_01.cpp.o] Error 1
+[1.701s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/topic_publisher_01.dir/all] Error 2
+[1.701s] gmake: *** [Makefile:146: all] Error 2
+[1.703s] Invoked command in '/d2lros2/chap3/chapt3_ws/build/example_topic_rclcpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/d2lros2/chap2/chapt2_ws/install/example_py:/opt/ros/humble /usr/bin/cmake --build /d2lros2/chap3/chapt3_ws/build/example_topic_rclcpp -- -j16 -l16

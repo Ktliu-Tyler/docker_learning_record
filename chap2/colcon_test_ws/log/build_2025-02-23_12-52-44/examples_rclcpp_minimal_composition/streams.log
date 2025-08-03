@@ -1,0 +1,14 @@
+[0.058s] Invoking command in '/d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /d2lros2/chap2/colcon_test_ws/build/examples_rclcpp_minimal_composition -- -j16 -l16
+[1.725s] [ 11%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/subscriber_node.cpp.o[0m
+[1.725s] [ 22%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/publisher_node.cpp.o[0m
+[34.212s] [ 33%] [32m[1mLinking CXX shared library libcomposition_nodes.so[0m
+[34.562s] [ 33%] Built target composition_nodes
+[34.584s] [ 44%] [32mBuilding CXX object CMakeFiles/composition_subscriber.dir/src/standalone_subscriber.cpp.o[0m
+[34.585s] [ 55%] [32mBuilding CXX object CMakeFiles/composition_publisher.dir/src/standalone_publisher.cpp.o[0m
+[34.585s] [ 66%] [32mBuilding CXX object CMakeFiles/composition_composed.dir/src/composed.cpp.o[0m
+[37.254s] [ 77%] [32m[1mLinking CXX executable composition_publisher[0m
+[37.290s] [ 88%] [32m[1mLinking CXX executable composition_composed[0m
+[37.306s] [100%] [32m[1mLinking CXX executable composition_subscriber[0m
+[37.365s] [100%] Built target composition_publisher
+[37.413s] [100%] Built target composition_composed
+[37.428s] [100%] Built target composition_subscriber
